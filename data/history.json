@@ -1,0 +1,99 @@
+{
+  "basis_date": "2025-09",
+  "reference_date": "2026-09-13",
+  "reference_hki": 331.6,
+  "group_weights": {
+    "ram": 0.4,
+    "ssd": 0.3,
+    "gpu": 0.2,
+    "hdd": 0.1
+  },
+  "source": "https://www.3dcenter.org/artikel/speicherkrise-preisindex-september-2026",
+  "method": "3DCenter-Gruppenindizes; auf September 2025 = 100 umgerechnet. Ab Tageserfassung separater 10-SKU-Stellvertreterkorb.",
+  "rows": [
+    {
+      "date": "2025-09",
+      "ram": 103,
+      "ssd": 101,
+      "gpu": 100,
+      "hdd": 103
+    },
+    {
+      "date": "2025-11",
+      "ram": 178,
+      "ssd": 110,
+      "gpu": 101,
+      "hdd": 122
+    },
+    {
+      "date": "2025-12",
+      "ram": 346,
+      "ssd": 141,
+      "gpu": 101,
+      "hdd": 130
+    },
+    {
+      "date": "2026-01",
+      "ram": 441,
+      "ssd": 172,
+      "gpu": 114,
+      "hdd": 153
+    },
+    {
+      "date": "2026-02",
+      "ram": 439,
+      "ssd": 184,
+      "gpu": 120,
+      "hdd": 162
+    },
+    {
+      "date": "2026-03",
+      "ram": 408,
+      "ssd": 190,
+      "gpu": 116,
+      "hdd": 159
+    },
+    {
+      "date": "2026-04",
+      "ram": 409,
+      "ssd": 202,
+      "gpu": 114,
+      "hdd": 184
+    },
+    {
+      "date": "2026-05",
+      "ram": 415,
+      "ssd": 200,
+      "gpu": 112,
+      "hdd": 196
+    },
+    {
+      "date": "2026-06",
+      "ram": 419,
+      "ssd": 203,
+      "gpu": 114,
+      "hdd": 212
+    },
+    {
+      "date": "2026-07",
+      "ram": 445,
+      "ssd": 208,
+      "gpu": 116,
+      "hdd": 225
+    },
+    {
+      "date": "2026-08",
+      "ram": 486,
+      "ssd": 224,
+      "gpu": 132,
+      "hdd": 239
+    },
+    {
+      "date": "2026-09",
+      "ram": 544,
+      "ssd": 225,
+      "gpu": 143,
+      "hdd": 257
+    }
+  ]
+}
