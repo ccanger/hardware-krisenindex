@@ -1,0 +1,105 @@
+{
+  "reference_date": "2026-09-13",
+  "products": [
+    {
+      "id": "ram32",
+      "group": "ram",
+      "label": "DDR5 2×16 GB ≥6000 MT/s",
+      "reference_eur": 430,
+      "geizhals_id": 2998430,
+      "geizhals_url": "https://geizhals.de/a2998430.html",
+      "sku": "CMK32GX5M2B6000Z30",
+      "model": "Corsair Vengeance 32GB DDR5-6000"
+    },
+    {
+      "id": "ram64",
+      "group": "ram",
+      "label": "DDR5 2×32 GB ≥6000 MT/s",
+      "reference_eur": 849,
+      "geizhals_id": 2876917,
+      "geizhals_url": "https://geizhals.de/a2876917.html",
+      "sku": "KF560C36BBEK2-64",
+      "model": "Kingston FURY Beast 64GB DDR5-6000"
+    },
+    {
+      "id": "ssd1",
+      "group": "ssd",
+      "label": "SSD 1 TB PCIe 4.0 mit DRAM",
+      "reference_eur": 156,
+      "geizhals_id": 2795961,
+      "geizhals_url": "https://geizhals.de/a2795961.html",
+      "sku": "MZ-V9P1T0BW",
+      "model": "Samsung 990 PRO 1TB"
+    },
+    {
+      "id": "ssd2",
+      "group": "ssd",
+      "label": "SSD 2 TB PCIe 4.0 mit DRAM",
+      "reference_eur": 299,
+      "geizhals_id": 2795958,
+      "geizhals_url": "https://geizhals.de/a2795958.html",
+      "sku": "MZ-V9P2T0BW",
+      "model": "Samsung 990 PRO 2TB"
+    },
+    {
+      "id": "rtx5070",
+      "group": "gpu",
+      "label": "GeForce RTX 5070 12 GB",
+      "reference_eur": 730,
+      "geizhals_id": 3395746,
+      "geizhals_url": "https://geizhals.de/a3395746.html",
+      "sku": "VCG507012TFXPB1",
+      "model": "PNY GeForce RTX 5070 Triple Fan"
+    },
+    {
+      "id": "rtx5080",
+      "group": "gpu",
+      "label": "GeForce RTX 5080 16 GB",
+      "reference_eur": 1389,
+      "geizhals_id": 3417008,
+      "geizhals_url": "https://geizhals.de/a3417008.html",
+      "sku": "ZT-B50800D2-10P",
+      "model": "Zotac RTX 5080 Solid CORE"
+    },
+    {
+      "id": "rtx5090",
+      "group": "gpu",
+      "label": "GeForce RTX 5090 32 GB",
+      "reference_eur": 5249,
+      "geizhals_id": 3382344,
+      "geizhals_url": "https://geizhals.de/a3382344.html",
+      "sku": "90YV0LW0-M0NA00",
+      "model": "ASUS ROG Astral RTX 5090 OC"
+    },
+    {
+      "id": "rx9070xt",
+      "group": "gpu",
+      "label": "Radeon RX 9070 XT 16 GB",
+      "reference_eur": 750,
+      "geizhals_id": 3431083,
+      "geizhals_url": "https://geizhals.de/a3431083.html",
+      "sku": "RX-97TSWF3B9",
+      "model": "XFX Swift RX 9070 XT"
+    },
+    {
+      "id": "hdd8",
+      "group": "hdd",
+      "label": "Interne HDD 8 TB",
+      "reference_eur": 284,
+      "geizhals_id": 2085161,
+      "geizhals_url": "https://geizhals.de/a2085161.html",
+      "sku": "ST8000VN004",
+      "model": "Seagate IronWolf NAS HDD 8TB"
+    },
+    {
+      "id": "hdd18",
+      "group": "hdd",
+      "label": "Interne HDD 18 TB",
+      "reference_eur": 708,
+      "geizhals_id": 2643408,
+      "geizhals_url": "https://geizhals.de/a2643408.html",
+      "sku": "HDWG51JUZSVA",
+      "model": "Toshiba N300 NAS HDD 18TB"
+    }
+  ]
+}
