@@ -6,10 +6,11 @@ if not key: raise SystemExit('No SCRAPPA_API_KEY: Live-Erfassung ausgesetzt')
 trusted={'galaxus','mindfactory','alternate','notebooksbilliger','computeruniverse','cyberport','alza','proshop','caseking','jacob','voelkner','reichelt','mediamarkt','saturn','x-kom','expert'}
 bad=re.compile('ebay|amazon|marketplace|gebraucht|refurb|b-ware',re.I)
 def clean_shop(s):
- s=re.sub(r'^(DE|Deutschland)\\s+','',str(s).strip(),flags=re.I).lower()
+ s=re.sub(r'^(DE|Deutschland)\s+','',str(s).strip(),flags=re.I).lower()
  return (not bad.search(s)) and any(s==k or s.startswith(k+'.') or s.startswith(k+' ') for k in trusted)
 def available(x):
  if x is True:return True
+ if x is False:return False
  if not x:return False
  s=str(x).lower()
  if re.search('nicht|kein|out of stock|sold out|unavailable|vorbestellung|ab mitte|lieferbar ab|auf lager ab|4-6 wochen',s):return False
@@ -57,3 +58,5 @@ folder=ROOT/'data'/'observations';folder.mkdir(exist_ok=True,parents=True)
 out={'date':today,'provider':'scrappa_geizhals_product','retrieved_at':now.isoformat(),'offers':good,'problems':errors}
 (folder/(today+'.json')).write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
 print('Observed',len(good),'of',len(products),'products. Problems:',len(errors))
+for issue in errors:
+ print('Missing',issue['id'],issue['reason'][:130])
