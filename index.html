@@ -47,7 +47,7 @@ const dayColors={hki:'#6de0cc',ram:'#f6b667',ssd:'#80a9fa',gpu:'#c9a2f2',hdd:'#f
 const modelNames=['DDR5 32 GB','DDR5 64 GB','SSD 1 TB','SSD 2 TB','RTX 5070','RTX 5080','RTX 5090','RX 9070 XT','HDD 8 TB','HDD 18 TB'];
 const modelIds=['ram32','ram64','ssd1','ssd2','rtx5070','rtx5080','rtx5090','rx9070xt','hdd8','hdd18'];
 const tableCells=(row,content)=>{const td=document.createElement('td');td.textContent=content;row.append(td);return td};
-const fmtDay=(s)=>{if(!/^\\d{4}-\\d{2}-\\d{2}$/.test(s))return s;const t=s.split('-');return t[2]+'.'+t[1]+'.'+t[0]};
+const fmtDay=(s)=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(s))return s;const t=s.split('-');return t[2]+'.'+t[1]+'.'+t[0]};
 const numDE=(v,d=1)=>Number(v).toLocaleString('de-DE',{minimumFractionDigits:d,maximumFractionDigits:d});
 const isoDays=(a,b)=>Math.round((Date.parse(b+'T12:00:00Z')-Date.parse(a+'T12:00:00Z'))/86400000);
 const keySet=(e,g)=>{
@@ -101,7 +101,7 @@ try{
 const response=await fetch('data/daily.json?ts='+Date.now(),{cache:'no-store'});
 if(!response.ok)throw Error('HTTP '+response.status);
 const obj=await response.json();
-dailyEntries=(Array.isArray(obj.entries)?obj.entries:[]).filter(e=>/^\\d{4}-\\d{2}-\\d{2}$/.test(e.date)).sort((a,b)=>a.date.localeCompare(b.date));
+dailyEntries=(Array.isArray(obj.entries)?obj.entries:[]).filter(e=>/^\d{4}-\d{2}-\d{2}$/.test(e.date)).sort((a,b)=>a.date.localeCompare(b.date));
 const last=dailyEntries.at(-1);
 const latestComplete=[...dailyEntries].reverse().find(e=>e.complete&&Number.isFinite(Number(e.hki))&&e.hki!=null);
 document.getElementById('liveStatus').textContent=last?'Letzte Preiserhebung: '+fmtDay(last.date)+(last.complete?' · alle erforderlichen Gruppen abgedeckt':' · unvollständige Daten'):'Noch keine automatisch erfassten Tagesdaten.';
