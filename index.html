@@ -1,4 +1,35 @@
-<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hardware-Krisenindex HKI</title><style>body{margin:0;background:#0b1320;color:#f0f5ff;font:16px system-ui}main{max-width:1020px;margin:auto;padding:24px}header{padding:20px 24px;border-bottom:1px solid #344355}h1{font-size:clamp(30px,5vw,48px);line-height:1.1}h2{margin-top:38px}.muted,small{color:#aab9cc}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.card{background:#182337;padding:22px;border-radius:16px;border:1px solid #344355}.number{font-size:38px;font-weight:750;color:#6de0cc}.up{color:#f6b667}.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:510px}th,td{padding:11px;border-bottom:1px solid #354358;text-align:left}td:nth-child(2),td:nth-child(3){text-align:right}button{background:#1a2b43;color:#dce9f8;border:1px solid #42566b;padding:9px 13px;border-radius:8px;margin:2px;cursor:pointer}button.on{background:#226c64;color:white}svg{width:100%;height:auto}a{color:#6de0cc}.notice{background:#352e27;border-left:4px solid #f6b667;padding:15px;border-radius:7px}.legend{color:#aab9cc;font-size:13px}</style><header><b>HKI / Hardware-Krisenindex</b> <span class="muted"> · Deutschland · Historische Ansicht · Live-Daten separat</span></header><main><h1>Wie teuer wird die KI-Hardware?</h1><p class="muted">Historische Preisentwicklung von DDR5, SSD, Grafikkarten und Festplatten – mit interaktivem Zeitdiagramm und klarer Trennung zwischen Monatsstatistik und täglichen Stichproben.</p><div class="cards"><div class="card"><small>Historischer Gruppen-HKI (Okt. 2026)</small><div class="number" id="main">–</div><span class="up">Basis September 2025 = 100</span></div><div class="card"><small>Monatliche Veränderung</small><div class="number" id="delta">–</div><small>Oktober gegenüber September 2026</small></div><div class="card"><small>Zuletzt berichteter Anschlusswert</small><div class="number">393,7</div><small>18.10.2026 · vorläufig / anderes Messverfahren</small></div></div><h2>Zeitlicher Verlauf</h2><div class="card"><div id="buttons"></div><svg viewBox="0 0 980 370" role="img" aria-label="Zeitlicher Verlauf der Preisindizes" id="chart"></svg><p id="detail" class="legend">Monatswerte. Tippe auf einen Punkt für das genaue Datum und den Wert.</p></div><h2>Vier Hardwaregruppen</h2><div class="cards" id="groups"></div><h2>Täglicher Anschlussindex</h2><div class="card"><p>Das tägliche Verfahren verwendet <b>zehn feste Produktklassen</b>. Es ist nicht identisch mit dem historischen Gruppenindex. Die zwei bisher berichteten Stichproben sind wegen Modellwechseln nicht als zuverlässige Tagesänderung vergleichbar.</p><div class="tablewrap"><table><thead><tr><th>Erhebung</th><th>Indexpunkte</th><th>Qualität</th></tr></thead><tbody><tr><td>13.09.2026</td><td>331,6</td><td>historischer Startwert</td></tr><tr><td>17.10.2026</td><td>366,0</td><td>vorläufige Stichprobe</td></tr><tr><td>18.10.2026</td><td>393,7</td><td>vorläufige Stichprobe</td></tr></tbody></table></div></div><h2>Fester Produktkorb</h2><div class="card tablewrap"><table><thead><tr><th>Hardware</th><th>Referenz Sept. 2026</th><th>Livepreis</th></tr></thead><tbody id="basket"></tbody></table><small>Keine fiktiven Livepreise: Die Preise werden erst nach tagesaktueller Händler- und Verfügbarkeitsprüfung eingetragen.</small></div><h2>Verfahren und Grenzen</h2><div class="card"><p>Historische Preisgruppen werden auf September 2025 = 100 normiert und gewichtet: <b>40 % RAM, 30 % SSD, 20 % Grafikkarten, 10 % HDD</b>. Für die tägliche Fortschreibung gilt: HKI = 331,6 × (0,40 × R_RAM + 0,30 × R_SSD + 0,20 × R_GPU + 0,10 × R_HDD), wobei jedes R dem Mittel der Preisverhältnisse der zugehörigen Produktklassen zum 13.09.2026 entspricht.</p><p>Ein Tageswert wird nur berechnet, wenn je Gruppe mindestens die Hälfte der Produkte verlässlich bepreist ist. Eine Trendwende setzt mindestens sieben Tage überprüfbarer Rückgänge in mehreren Gruppen voraus.</p><p class="notice"><b>Hinweis:</b> Die Veröffentlichung dieser statischen Webseite bewirkt noch keine automatische Preisaktualisierung. Der historische 3DCenter-Warenkorb und unser täglicher Stellvertreterkorb sind unterschiedlich. Unterschiedliche erfasste konkrete Produktmodelle können scheinbare Preisänderungen verursachen.</p><small>Quellen: <a href="https://www.3dcenter.org/artikel/speicherkrise-preisindex-september-2026">3DCenter September 2026</a> · <a href="https://www.3dcenter.org/news/neuer-artikel-speicherkrise-preisindex-oktober-2026">3DCenter Oktober 2026</a> · <a href="https://geizhals.de">Geizhals Händlerangebote</a>. Oktoberwerte im Diagramm nur soweit aus der monatlichen Berichterstattung übernommen; ungeprüfte Werte werden nicht als tägliche Beobachtungen dargestellt.</small></div><p class="muted">Kein amtlicher Index, keine Anlageberatung. Historische Ansicht; Live-Daten müssen getrennt geprüft werden.</p><section class="card" style="margin:22px 0" id="live"><h2 style="margin-top:0">Automatische Tagesdaten</h2><p id="liveStatus">Lade Daten …</p><div class="tablewrap"><table><thead><tr><th>Datum</th><th>HKI</th><th>Qualität</th></tr></thead><tbody id="liveRows"></tbody></table></div><p><small>Unvollständige Tagesdatensätze werden als Datenlücke behandelt. Die historische 3DCenter-Monatsreihe verwendet eine andere Methode als die zehn täglichen Produkt-SKUs.</small></p></section></main><script>
+<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hardware-Krisenindex HKI</title><style>body{margin:0;background:#0b1320;color:#f0f5ff;font:16px system-ui}main{max-width:1020px;margin:auto;padding:24px}header{padding:20px 24px;border-bottom:1px solid #344355}h1{font-size:clamp(30px,5vw,48px);line-height:1.1}h2{margin-top:38px}.muted,small{color:#aab9cc}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.card{background:#182337;padding:22px;border-radius:16px;border:1px solid #344355}.number{font-size:38px;font-weight:750;color:#6de0cc}.up{color:#f6b667}.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:510px}th,td{padding:11px;border-bottom:1px solid #354358;text-align:left}td:nth-child(2),td:nth-child(3){text-align:right}button{background:#1a2b43;color:#dce9f8;border:1px solid #42566b;padding:9px 13px;border-radius:8px;margin:2px;cursor:pointer}button.on{background:#226c64;color:white}svg{width:100%;height:auto}a{color:#6de0cc}.notice{background:#352e27;border-left:4px solid #f6b667;padding:15px;border-radius:7px}.legend{color:#aab9cc;font-size:13px}
+#dailyChartScroll{overflow-x:auto;overscroll-behavior-inline:contain;border:1px solid #324454;border-radius:12px;background:#101c2c;margin:14px 0}
+#dailyChart{width:100%;min-width:600px;display:block}
+#dailyControls{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+#dailyControls button{font-size:13px}
+#dailySelected{font-size:15px;color:#d5edeb;margin:10px 0}
+#dailyTrend{background:#26303b;padding:12px 14px;border-radius:8px;border-left:3px solid #f6b667;margin:15px 0}
+#dailyPrices td:first-child{white-space:normal}
+#dailyPrices td:nth-child(2){text-align:right}
+#dailyPrices td:nth-child(3){text-align:left}
+#liveRows td:nth-child(2){text-align:right}
+#liveRows td:nth-child(3){text-align:left}
+#live .card-inner{padding:14px 0 4px}
+@media(max-width:640px){#dailyPrices td{font-size:12px}#dailyControls button{padding:7px 10px}}
+</style><header><b>HKI / Hardware-Krisenindex</b> <span class="muted"> · Deutschland · Historische Ansicht · Live-Daten separat</span></header><main><h1>Wie teuer wird die KI-Hardware?</h1><p class="muted">Historische Preisentwicklung von DDR5, SSD, Grafikkarten und Festplatten – mit interaktivem Zeitdiagramm und klarer Trennung zwischen Monatsstatistik und täglichen Stichproben.</p><div class="cards"><div class="card"><small>Historischer Gruppen-HKI (Okt. 2026)</small><div class="number" id="main">–</div><span class="up">Basis September 2025 = 100</span></div><div class="card"><small>Monatliche Veränderung</small><div class="number" id="delta">–</div><small>Oktober gegenüber September 2026</small></div><div class="card"><small>Letzter automatischer HKI (vorläufig)</small><div class="number" id="latestHki">–</div><small id="latestHkiDate">Daten werden geladen · eigene 10-SKU-Methode</small></div></div><h2>Zeitlicher Verlauf</h2><div class="card"><div id="buttons"></div><svg viewBox="0 0 980 370" role="img" aria-label="Zeitlicher Verlauf der Preisindizes" id="chart"></svg><p id="detail" class="legend">Monatswerte. Tippe auf einen Punkt für das genaue Datum und den Wert.</p></div><h2>Vier Hardwaregruppen</h2><div class="cards" id="groups"></div><h2>Täglicher Anschlussindex</h2><div class="card"><p>Die täglich automatisch erfassten Preise verwenden zehn feste Produktmodelle. Der Index wird als <b>eigene, vorläufige Zeitreihe</b> angezeigt; er darf nicht direkt mit den historischen 3DCenter-Monatswerten oder den uneinheitlichen Stichproben vom 17./18. Oktober verbunden werden.</p><p><a href="#live">Zum automatischen Tagesdiagramm und zu den Händlerpreisen ↓</a></p></div><h2>Fester Produktkorb</h2><div class="card tablewrap"><table><thead><tr><th>Hardware</th><th>Referenz Sept. 2026</th><th>Livepreis</th></tr></thead><tbody id="basket"></tbody></table><small>Keine fiktiven Livepreise: Die Preise werden erst nach tagesaktueller Händler- und Verfügbarkeitsprüfung eingetragen.</small></div><h2>Verfahren und Grenzen</h2><div class="card"><p>Historische Preisgruppen werden auf September 2025 = 100 normiert und gewichtet: <b>40 % RAM, 30 % SSD, 20 % Grafikkarten, 10 % HDD</b>. Für die tägliche Fortschreibung gilt: HKI = 331,6 × (0,40 × R_RAM + 0,30 × R_SSD + 0,20 × R_GPU + 0,10 × R_HDD), wobei jedes R dem Mittel der Preisverhältnisse der zugehörigen Produktklassen zum 13.09.2026 entspricht.</p><p>Ein Tageswert wird nur berechnet, wenn je Gruppe mindestens die Hälfte der Produkte verlässlich bepreist ist. Eine Trendwende setzt mindestens sieben Tage überprüfbarer Rückgänge in mehreren Gruppen voraus.</p><p class="notice"><b>Hinweis:</b> Die Tagesdaten werden durch GitHub Actions automatisch aus einer unabhängigen Geizhals-Drittanbieter-API geladen; ihre Händlerangebote sind nicht zusätzlich unabhängig bestätigt. Der historische 3DCenter-Warenkorb und unser täglicher Stellvertreterkorb sind unterschiedlich. Unterschiedliche erfasste konkrete Produktmodelle können scheinbare Preisänderungen verursachen.</p><small>Quellen: <a href="https://www.3dcenter.org/artikel/speicherkrise-preisindex-september-2026">3DCenter September 2026</a> · <a href="https://www.3dcenter.org/news/neuer-artikel-speicherkrise-preisindex-oktober-2026">3DCenter Oktober 2026</a> · <a href="https://geizhals.de">Geizhals Händlerangebote</a>. Oktoberwerte im Diagramm nur soweit aus der monatlichen Berichterstattung übernommen; ungeprüfte Werte werden nicht als tägliche Beobachtungen dargestellt.</small></div><p class="muted">Kein amtlicher Index, keine Anlageberatung. Historische Ansicht; Live-Daten müssen getrennt geprüft werden.</p><section class="card" style="margin:22px 0" id="live"><h2 style="margin-top:0">Tägliche Preisentwicklung</h2><p class="muted">Eigene Zehn-Modell-Messreihe · tägliche Werte ab 23.10.2026 · getrennt von der historischen Monatskurve</p>
+<p id="liveStatus" aria-live="polite">Lade Tagesdaten …</p>
+<div id="dailyControls" role="group" aria-label="Tägliche Datenreihe auswählen">
+<button class="on" type="button" data-daily="hki">Gesamt-HKI</button>
+<button type="button" data-daily="ram">DDR5-RAM</button>
+<button type="button" data-daily="ssd">SSDs</button>
+<button type="button" data-daily="gpu">Grafikkarten</button>
+<button type="button" data-daily="hdd">Festplatten</button>
+</div>
+<div id="dailyChartScroll"><svg id="dailyChart" viewBox="0 0 880 300" role="img" aria-label="Interaktives Tagespreisdiagramm" focusable="false"></svg></div>
+<div id="dailySelected" aria-live="polite">Tageswerte werden geladen.</div>
+<p class="legend">Hinweis: Bei nur einem Messtag erscheint ein einzelner Punkt. Verbundene Linien werden nur für unmittelbar aufeinanderfolgende Tage mit denselben erfassten Produktmodellen gezeichnet. RAM/SSD/GPU/HDD zeigen Preisverhältnisse (Sept. 2026 = 100), der Gesamt-HKI zeigt Indexpunkte.</p>
+<div id="dailyTrend">Siebentages-Trend: Noch nicht auswertbar.</div>
+<h3>Automatisch gespeicherte Tagesmessungen</h3>
+<div class="tablewrap"><table><thead><tr><th>Datum</th><th>HKI</th><th>Abdeckung / Qualität</th></tr></thead><tbody id="liveRows"></tbody></table></div>
+<h3>Jüngste gemeldete Händlerpreise</h3>
+<div class="tablewrap"><table id="dailyPrices"><thead><tr><th>Produkt</th><th>Preis</th><th>Händler / Quelle</th></tr></thead><tbody id="dailyPricesRows"></tbody></table></div>
+<p><small>Preise sind unverbindliche API-Momentaufnahmen (Neuware, Lieferbarkeit laut Anbieter), ohne unabhängige Shop-Kontrolle. Vergleich über verschiedene Modellzusammensetzungen ist unsicher. Die historische Monatsreihe hat eine andere Datenbasis.</small></p></section></main><script>
 const rows=[['2025-09',103,101,100,103],['2025-11',178,110,101,122],['2025-12',346,141,101,130],['2026-01',441,172,114,153],['2026-02',439,184,120,162],['2026-03',408,190,116,159],['2026-04',409,202,114,184],['2026-05',415,200,112,196],['2026-06',419,203,114,212],['2026-07',445,208,116,225],['2026-08',486,224,132,239],['2026-09',544,225,143,257],['2026-10',559,247,165,258]];
 const labels=['Gesamt-HKI','DDR5 RAM','SSD','GPU','HDD'], keys=['hki','ram','ssd','gpu','hdd'],colors=['#6de0cc','#f6b667','#80a9fa','#c9a2f2','#ff9292'],basis=[103,101,100,103];
 const data=rows.map(r=>{const [date,...v]=r;const a=v.map((x,i)=>x/basis[i]*100);return {date,ram:a[0],ssd:a[1],gpu:a[2],hdd:a[3],hki:.4*a[0]+.3*a[1]+.2*a[2]+.1*a[3]}}),fmt=x=>x.toLocaleString('de-DE',{minimumFractionDigits:1,maximumFractionDigits:1});
@@ -10,4 +41,86 @@ document.getElementById('basket').innerHTML=basket.map(([n,p])=>'<tr><td>'+n+'</
 let sel='hki';const svg=document.getElementById('chart'),ns='http://www.w3.org/2000/svg';
 function el(tag,attrs,txt){const x=document.createElementNS(ns,tag);for(const [k,v] of Object.entries(attrs))x.setAttribute(k,v);if(txt!==undefined)x.textContent=txt;svg.append(x);return x}
 function draw(){svg.replaceChildren();document.getElementById('buttons').innerHTML=keys.map((k,i)=>'<button class="'+(sel===k?'on':'')+'" data-k="'+k+'">'+labels[i]+'</button>').join('');document.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{sel=b.dataset.k;draw()});const max=Math.ceil(Math.max(...data.map(d=>d[sel]))/50)*50;const X=i=>55+i*885/(data.length-1),Y=v=>315-v/max*285;for(let i=0;i<=4;i++){let v=max*i/4,y=Y(v);el('line',{x1:55,y1:y,x2:944,y2:y,stroke:'#304056'});el('text',{x:42,y:y+4,fill:'#aab9cc','font-size':12,'text-anchor':'end'},Math.round(v))}const pts=data.map((d,i)=>X(i)+','+Y(d[sel])).join(' ');el('polyline',{points:pts,stroke:colors[keys.indexOf(sel)],'stroke-width':3.5,fill:'none'});data.forEach((d,i)=>{if(i%2===0||i===data.length-1)el('text',{x:X(i),y:351,'text-anchor':'middle',fill:'#aab9cc','font-size':12},d.date.slice(2));const p=el('circle',{cx:X(i),cy:Y(d[sel]),r:7,fill:colors[keys.indexOf(sel)],role:'button',tabindex:0});const show=()=>document.getElementById('detail').textContent=d.date+': '+labels[keys.indexOf(sel)]+' '+fmt(d[sel])+' Punkte';p.onmouseenter=show;p.onclick=show;p.onfocus=show})}draw();
-(async()=>{try{let response=await fetch('data/daily.json?ts='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);let data=await response.json();let entries=data.entries||[];let last=entries.at(-1);document.getElementById('liveStatus').textContent=last?'Letzte Erhebung: '+last.date+(last.complete?' · vollständige Abdeckung':' · Datenlücke'):'Noch keine verifizierten Tagespreise verfügbar; die historische Kurve bleibt sichtbar.';document.getElementById('liveRows').innerHTML=entries.slice(-14).reverse().map(e=>'<tr><td>'+e.date+'</td><td>'+(e.hki==null?'–':Number(e.hki).toLocaleString('de-DE'))+'</td><td>'+(e.complete?'Verifiziert via API; Händlerverfügbarkeit gemeldet':'Unzureichende Angebote')+'</td></tr>').join('');}catch(e){document.getElementById('liveStatus').textContent='Tagesdaten momentan nicht abrufbar.'}})();</script></html>
+
+const dayNames={hki:'Hardware-Krisenindex',ram:'DDR5-RAM',ssd:'SSDs',gpu:'Grafikkarten',hdd:'Festplatten'};
+const dayColors={hki:'#6de0cc',ram:'#f6b667',ssd:'#80a9fa',gpu:'#c9a2f2',hdd:'#ff9292'};
+const modelNames=['DDR5 32 GB','DDR5 64 GB','SSD 1 TB','SSD 2 TB','RTX 5070','RTX 5080','RTX 5090','RX 9070 XT','HDD 8 TB','HDD 18 TB'];
+const modelIds=['ram32','ram64','ssd1','ssd2','rtx5070','rtx5080','rtx5090','rx9070xt','hdd8','hdd18'];
+const tableCells=(row,content)=>{const td=document.createElement('td');td.textContent=content;row.append(td);return td};
+const fmtDay=(s)=>{if(!/^\\d{4}-\\d{2}-\\d{2}$/.test(s))return s;const t=s.split('-');return t[2]+'.'+t[1]+'.'+t[0]};
+const numDE=(v,d=1)=>Number(v).toLocaleString('de-DE',{minimumFractionDigits:d,maximumFractionDigits:d});
+const isoDays=(a,b)=>Math.round((Date.parse(b+'T12:00:00Z')-Date.parse(a+'T12:00:00Z'))/86400000);
+const keySet=(e,g)=>{
+const offers=Array.isArray(e.offers)?e.offers:[];
+return offers.filter(o=>g==='hki'||(g==='ram'?o.id.startsWith('ram'):g==='ssd'?o.id.startsWith('ssd'):g==='gpu'?o.id.startsWith('rtx')||o.id.startsWith('rx'):o.id.startsWith('hdd'))).map(o=>o.id).sort().join(',');
+};
+let dailyEntries=[],selectedDaily='hki';
+function dailyValue(e,k){
+if(!e.complete)return null;
+const v=k==='hki'?e.hki:Number(e.relative_groups&&e.relative_groups[k])*100;
+return Number.isFinite(v)&&v>0?v:null;
+}
+function dateTip(e,v){
+document.getElementById('dailySelected').textContent=fmtDay(e.date)+' · '+dayNames[selectedDaily]+': '+numDE(v,2)+(selectedDaily==='hki'?' Punkte':' (Referenz = 100)');
+}
+function renderDailyChart(){
+const target=document.getElementById('dailyChart'),ns='http://www.w3.org/2000/svg';
+target.replaceChildren();
+const tag=(name,attrs,text)=>{const el=document.createElementNS(ns,name);for(const [k,v] of Object.entries(attrs))el.setAttribute(k,String(v));if(text!=null)el.textContent=text;target.append(el);return el};
+const series=dailyEntries.filter(e=>dailyValue(e,selectedDaily)!==null).slice(-120);
+if(!series.length){tag('text',{x:440,y:140,'text-anchor':'middle',fill:'#aab9cc','font-size':19},'Noch keine vollständigen Tagesdaten');return}
+const vals=series.map(e=>dailyValue(e,selectedDaily)),lo=Math.min(...vals),hi=Math.max(...vals);
+const base=(hi+lo)/2,spread=Math.max(hi-lo,Math.max(base*.03,5)),vmin=Math.max(0,lo-spread*.48),vmax=hi+spread*.48;
+const L=68,R=22,T=18,B=52,W=880,H=300;
+const tMin=Date.parse(series[0].date+'T12:00:00Z'),tMax=Date.parse(series.at(-1).date+'T12:00:00Z');
+const X=e=>tMin===tMax?(L+W-R)/2:L+(Date.parse(e.date+'T12:00:00Z')-tMin)/(tMax-tMin)*(W-L-R);
+const Y=v=>H-B-(v-vmin)/(vmax-vmin)*(H-T-B);
+for(let k=0;k<=4;k++){const v=vmin+(vmax-vmin)*k/4,y=Y(v);tag('line',{x1:L,x2:W-R,y1:y,y2:y,stroke:'#354358'});tag('text',{x:L-10,y:y+5,'text-anchor':'end',fill:'#aab9cc','font-size':15},numDE(v,selectedDaily==='hki'?0:1))}
+const tick=series.length<=4?1:Math.max(1,Math.ceil(series.length/6));
+series.forEach((e,i)=>{if(i%tick===0||i===series.length-1){tag('text',{x:X(e),y:H-16,'text-anchor':'middle',fill:'#aab9cc','font-size':14},e.date.slice(5))}});
+for(let i=1;i<series.length;i++){
+const before=series[i-1],after=series[i];
+if(isoDays(before.date,after.date)!==1||keySet(before,selectedDaily)!==keySet(after,selectedDaily))continue;
+tag('line',{x1:X(before),y1:Y(dailyValue(before,selectedDaily)),x2:X(after),y2:Y(dailyValue(after,selectedDaily)),stroke:dayColors[selectedDaily],'stroke-width':3});
+}
+series.forEach(e=>{let v=dailyValue(e,selectedDaily),p=tag('circle',{cx:X(e),cy:Y(v),r:7,fill:dayColors[selectedDaily],stroke:'#0b1320','stroke-width':2,tabindex:0,role:'button','aria-label':fmtDay(e.date)+': '+numDE(v,2)});p.addEventListener('click',()=>dateTip(e,v));p.addEventListener('mouseenter',()=>dateTip(e,v));p.addEventListener('focus',()=>dateTip(e,v));p.addEventListener('touchstart',()=>dateTip(e,v),{passive:true})});
+dateTip(series.at(-1),vals.at(-1));
+}
+function renderTrend(){
+const last=dailyEntries.filter(e=>e.complete&&Number.isFinite(e.hki)).slice(-8);
+const el=document.getElementById('dailyTrend');
+if(last.length<8||last.some((x,i)=>i>0&&isoDays(last[i-1].date,x.date)!==1)||last.some(x=>keySet(x,'hki')!==keySet(last[0],'hki'))){
+el.textContent='Siebentages-Trend: Kein gesichertes Signal. Erforderlich sind mindestens acht aufeinanderfolgende, vollständig und identisch besetzte Tagesmessungen.';
+return}
+const affected=['ram','ssd','gpu','hdd'].filter(g=>{const xs=last.map(x=>Number(x.relative_groups&&x.relative_groups[g]));if(xs.some(x=>!Number.isFinite(x)||x<=0))return false;let falls=0;for(let i=1;i<xs.length;i++)if(xs[i]<xs[i-1])falls++;return xs.at(-1)<xs[0]&&falls>=5});
+const decline=last.at(-1).hki<last[0].hki;
+el.textContent=(affected.length>=2&&decline?'Rückgangssignal bestätigt: '+affected.map(g=>dayNames[g]).join(', '):'Siebentages-Trend: Kein gesichertes gruppenübergreifendes Rückgangssignal.')+' · Vergleich '+fmtDay(last[0].date)+' bis '+fmtDay(last.at(-1).date)+'.';
+}
+async function loadDaily(){
+try{
+const response=await fetch('data/daily.json?ts='+Date.now(),{cache:'no-store'});
+if(!response.ok)throw Error('HTTP '+response.status);
+const obj=await response.json();
+dailyEntries=(Array.isArray(obj.entries)?obj.entries:[]).filter(e=>/^\\d{4}-\\d{2}-\\d{2}$/.test(e.date)).sort((a,b)=>a.date.localeCompare(b.date));
+const last=dailyEntries.at(-1);
+const latestComplete=[...dailyEntries].reverse().find(e=>e.complete&&Number.isFinite(Number(e.hki))&&e.hki!=null);
+document.getElementById('liveStatus').textContent=last?'Letzte Preiserhebung: '+fmtDay(last.date)+(last.complete?' · alle erforderlichen Gruppen abgedeckt':' · unvollständige Daten'):'Noch keine automatisch erfassten Tagesdaten.';
+document.getElementById('latestHki').textContent=latestComplete?numDE(latestComplete.hki,2):'–';
+document.getElementById('latestHkiDate').textContent=latestComplete?fmtDay(latestComplete.date)+' · Händlerdaten laut Drittanbieter · vorläufig':'Noch keine vollständige Tagesmessung';
+const rows=document.getElementById('liveRows');rows.replaceChildren();
+for(const e of dailyEntries.slice(-30).reverse()){
+const tr=document.createElement('tr');tableCells(tr,fmtDay(e.date));tableCells(tr,e.complete&&e.hki!=null?numDE(e.hki,2):'–');tableCells(tr,e.complete?'API-Abdeckung erfüllt (vorläufig)':'Datenlücke');rows.append(tr)
+}
+const prices=document.getElementById('dailyPricesRows');prices.replaceChildren();
+const priceIndex=new Map();
+if(last&&Array.isArray(last.offers))for(const o of last.offers)priceIndex.set(o.id,o);
+modelIds.forEach((id,i)=>{
+const o=priceIndex.get(id),tr=document.createElement('tr');tableCells(tr,modelNames[i]);tableCells(tr,o?numDE(o.price_eur,2)+' €':'–');
+const td=document.createElement('td');if(o){td.append(document.createTextNode(String(o.merchant)+' · '));if(typeof o.source_url==='string'&&o.source_url.startsWith('https://geizhals.de/')){const link=document.createElement('a');link.href=o.source_url;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Geizhals';td.append(link)}}else{td.textContent='nicht verfügbar'}tr.append(td);prices.append(tr);
+});
+document.querySelectorAll('[data-daily]').forEach(button=>button.addEventListener('click',()=>{selectedDaily=button.dataset.daily;document.querySelectorAll('[data-daily]').forEach(b=>b.classList.toggle('on',b===button));renderDailyChart()}));
+renderDailyChart();renderTrend();
+}catch(e){document.getElementById('liveStatus').textContent='Tagesdaten momentan nicht abrufbar.';document.getElementById('dailySelected').textContent='Keine verifizierte Darstellung möglich.'}
+}
+loadDaily();
+</script></html>
