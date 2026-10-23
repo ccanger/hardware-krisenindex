@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "provider": "scrappa_geizhals_product",
-  "retrieved_at": "2026-10-23T08:43:38.035697+00:00",
+  "retrieved_at": "2026-10-23T08:53:14.402159+00:00",
   "offers": [
     {
       "id": "ram32",
@@ -12,7 +12,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     },
     {
       "id": "ram64",
@@ -23,7 +23,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     },
     {
       "id": "ssd1",
@@ -34,7 +34,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     },
     {
       "id": "ssd2",
@@ -45,7 +45,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     },
     {
       "id": "rtx5070",
@@ -56,7 +56,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     },
     {
       "id": "rtx5080",
@@ -67,7 +67,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     },
     {
       "id": "rtx5090",
@@ -78,7 +78,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     },
     {
       "id": "rx9070xt",
@@ -89,7 +89,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     },
     {
       "id": "hdd8",
@@ -100,7 +100,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     },
     {
       "id": "hdd18",
@@ -111,7 +111,7 @@
       "checked_date": "2026-10-23",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-23T08:43:38.035697+00:00"
+      "api_retrieved_at": "2026-10-23T08:53:14.402159+00:00"
     }
   ],
   "problems": []
