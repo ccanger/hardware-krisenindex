@@ -1,0 +1,79 @@
+name: Daily HKI collection and Pages
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 8 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'data/**'
+      - 'scripts/**'
+      - '.github/workflows/daily.yml'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: hki-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SCRAPPA_API_KEY: ${{ secrets.SCRAPPA_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check ten source products and historical anchor
+        run: |
+          python - <<'PY'
+          import json
+          p=json.load(open('data/products.json'))['products']
+          h=json.load(open('data/history.json'))
+          assert len(p)==10 and len(set(x['id'] for x in p))==10
+          first,last=h['rows'][0],h['rows'][-1]
+          v=sum(h['group_weights'][g]*100*last[g]/first[g] for g in ('ram','ssd','gpu','hdd'))
+          assert abs(v-331.6)<0.1
+          print('History/reference checked',round(v,2))
+          PY
+      - name: Fetch independent price provider offers
+        if: ${{ env.SCRAPPA_API_KEY != '' }}
+        env:
+          SCRAPPA_API_KEY: ${{ secrets.SCRAPPA_API_KEY }}
+        run: |
+          python scripts/collect_prices.py
+          python scripts/update_index.py "data/observations/$(TZ=Europe/Berlin date +%F).json"
+      - name: Note missing API credentials
+        if: ${{ env.SCRAPPA_API_KEY == '' }}
+        run: echo 'No SCRAPPA_API_KEY configured. Historical-only dashboard. No live prices claimed.'
+      - name: Commit collected observations
+        run: |
+          if [ -n "$(git status --porcelain -- data/daily.json data/observations)" ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add data/daily.json data/observations
+            git commit -m "data: append verified HKI sample [skip ci]"
+            git push
+          fi
+      - name: Package dashboard
+        run: |
+          mkdir -p public/data
+          cp index.html public/
+          cp data/daily.json data/history.json data/products.json public/data/
+          touch public/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
