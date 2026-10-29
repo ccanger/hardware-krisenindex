@@ -84,7 +84,7 @@ def main():
   d+=timedelta(days=1)
  # Never replace a genuine recorded live observation
  for r in rows:
-  previous.setdefault(r['date'],r)
+  previous[r['date']]=r
  ordered=sorted(previous.values(),key=lambda r:r['date'])
  old['records']=ordered[-500:]
  old['historical_backfill']={'start':START.isoformat(),'end':END.isoformat(),'data_type':'retrospective reconstruction, no publication-lag adjustment','gold_history':'XAU/USD spot daily close from goldprice.dev','source_errors':errors,'backfilled_at':datetime.now(timezone.utc).isoformat()}
