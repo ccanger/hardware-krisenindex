@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Reconstruct past observations from actual dated FRED values.
 This is a retrospective reconstruction, not a point-in-time investment backtest.
-Gold is historical COMEX futures proxy (GC=F), never mislabeled as XAU spot.
+Gold uses independent daily XAU/USD spot closing observations.
 """
 import csv,io,json,math
 from datetime import date,timedelta,datetime,timezone
@@ -74,20 +74,20 @@ def main():
   score=round(sum(v for v in points.values() if v is not None)*100/maxp,1) if inputs['us_hy'] is not None and cov>=4 else None
   aset={}
   if vals['SP500'] is not None:aset['SP500']={'value':round(vals['SP500'],4),'observed_at':d.isoformat(),'url':core.URLS['SP500'],'observation_kind':'S&P 500 Schluss'}
-  for ticker,alias,kind in [('VNQ','VNQ','Immobilienaktien ETF Schluss'),('GC=F','GOLD','Gold COMEX Futures Schluss, NICHT Spotpreis')]:
+  for ticker,alias,kind in [('VNQ','VNQ','Immobilienaktien ETF Schluss'),('XAU_SPOT','GOLD','XAU/USD Spot Tages-Schlusswert')]:
    if ticker in assets and d in assets[ticker][0]:
     aset[alias]={'value':assets[ticker][0][d],'observed_at':d.isoformat(),'url':assets[ticker][1],'observation_kind':kind}
   rows.append({'date':d.isoformat(),'collected_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),
    'score':score,'coverage':cov,'inputs':inputs,'points':points,'metrics':metrics,'assets':aset,
    'errors':{},'phase':('unvollstaendig' if score is None else 'ruhig' if score<20 else 'angespannt' if score<40 else 'warnung' if score<65 else 'akute_krise'),
-   'method':'RETROSPEKTIV REKONSTRUIERT, nicht historisch zeitgerecht veröffentlichte Information. Gold COMEX Futures Proxy, nicht XAU Spot.'})
+   'method':'RETROSPEKTIV REKONSTRUIERT, nicht historisch zeitgerecht veröffentlichte Information. Gold XAU/USD Spot Tagesschlusswerte.'})
   d+=timedelta(days=1)
  # Never replace a genuine recorded live observation
  for r in rows:
   previous.setdefault(r['date'],r)
  ordered=sorted(previous.values(),key=lambda r:r['date'])
  old['records']=ordered[-500:]
- old['historical_backfill']={'start':START.isoformat(),'end':END.isoformat(),'data_type':'retrospective reconstruction, no publication-lag adjustment','gold_history':'GC=F COMEX futures proxy, not spot XAU/USD','source_errors':errors,'backfilled_at':datetime.now(timezone.utc).isoformat()}
+ old['historical_backfill']={'start':START.isoformat(),'end':END.isoformat(),'data_type':'retrospective reconstruction, no publication-lag adjustment','gold_history':'XAU/USD spot daily close from goldprice.dev','source_errors':errors,'backfilled_at':datetime.now(timezone.utc).isoformat()}
  (ROOT/'data.json').write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n')
  valid=sum(x['score'] is not None for x in rows)
  print('BACKFILL',len(rows),'valid scores',valid,'assets',list(assets),'errors',errors)
