@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T07:50:04+00:00",
+  "updated_at": "2026-10-29T15:13:29+00:00",
   "timezone": "Europe/Berlin",
   "records": [
     {
@@ -13181,14 +13181,14 @@
     },
     {
       "date": "2026-10-29",
-      "collected_at": "2026-10-29T07:50:04+00:00",
+      "collected_at": "2026-10-29T15:13:29+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
-        "us_hy": 3.18,
-        "eu_hy": 3.62,
-        "vix": 17.52,
-        "funding": 0.05,
+        "us_hy": 3.14,
+        "eu_hy": 3.49,
+        "vix": 16.91,
+        "funding": 0.04,
         "drawdown": 0.95857,
         "stlfsi": -0.5837
       },
@@ -13202,23 +13202,23 @@
       },
       "metrics": {
         "BAMLH0A0HYM2": {
-          "date": "2026-10-27",
-          "value": 3.18,
+          "date": "2026-10-28",
+          "value": 3.14,
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2025-01-01"
         },
         "BAMLHE00EHYIOAS": {
-          "date": "2026-10-27",
-          "value": 3.62,
+          "date": "2026-10-28",
+          "value": 3.49,
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLHE00EHYIOAS&cosd=2025-01-01"
         },
         "VIXCLS": {
-          "date": "2026-10-27",
-          "value": 17.52,
+          "date": "2026-10-28",
+          "value": 16.91,
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd=2025-01-01"
         },
         "SOFR": {
-          "date": "2026-10-27",
-          "value": 3.95,
+          "date": "2026-10-28",
+          "value": 3.94,
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR&cosd=2025-01-01"
         },
         "IORB": {
@@ -13247,8 +13247,8 @@
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
         },
         "SOFR_MINUS_IORB": {
-          "value": 0.05,
-          "date": "2026-10-27",
+          "value": 0.04,
+          "date": "2026-10-28",
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR&cosd=2025-01-01"
         },
         "SP500_DRAWDOWN": {
@@ -13263,9 +13263,15 @@
         }
       },
       "assets": {
+        "GOLD": {
+          "value": 4024.8,
+          "observed_at": "2026-10-29T15:13:09Z",
+          "observation_kind": "Spot-Momentaufnahme, kein offizieller Schlusskurs",
+          "url": "https://api.gold-api.com/price/XAU"
+        },
         "VNQ": {
-          "value": 91.79,
-          "observed_at": "2026-10-28",
+          "value": 93.42,
+          "observed_at": "2026-10-29",
           "observation_kind": "ETF-Tagesschlusskurs, Immobilienaktien-Proxy",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1mo&interval=1d"
         },
@@ -13276,9 +13282,7 @@
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
         }
       },
-      "errors": {
-        "GOLD": "<urlopen error [Errno -2] Name or service not known>"
-      },
+      "errors": {},
       "phase": "ruhig",
       "method": "Heuristischer Marktstress, keine Krisenprognose; fehlende Komponenten NICHT null."
     }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T07:50:03.109295+00:00",
+  "updated_at": "2026-10-29T15:13:29.575964+00:00",
   "method": "Separater 10-SKU-Anschlussindex: HKI=331.6*(.4*R_RAM+.3*R_SSD+.2*R_GPU+.1*R_HDD)",
   "entries": [
     {
@@ -862,7 +862,7 @@
     },
     {
       "date": "2026-10-29",
-      "hki": 470.44,
+      "hki": 472.12,
       "complete": true,
       "coverage": {
         "ram": {
@@ -884,9 +884,9 @@
       },
       "relative_groups": {
         "ram": 1.483417015914756,
-        "ssd": 1.4054765886287626,
-        "gpu": 1.3494849829656983,
-        "hdd": 1.3378434590594415
+        "ssd": 1.4221989966555184,
+        "gpu": 1.3590106068940655,
+        "hdd": 1.31948893928543
       },
       "offers": [
         {
@@ -898,7 +898,7 @@
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         },
         {
           "id": "ram64",
@@ -909,7 +909,7 @@
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         },
         {
           "id": "ssd1",
@@ -920,18 +920,18 @@
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         },
         {
           "id": "ssd2",
-          "price_eur": 419.0,
-          "merchant": "Galaxus Deutschland GmbH",
+          "price_eur": 429.0,
+          "merchant": "Alternate GmbH",
           "source_url": "https://geizhals.de/a2795958.html",
           "sku": "MZ-V9P2T0BW",
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         },
         {
           "id": "rtx5070",
@@ -942,7 +942,7 @@
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         },
         {
           "id": "rtx5080",
@@ -953,18 +953,18 @@
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         },
         {
           "id": "rtx5090",
-          "price_eur": 7949.0,
+          "price_eur": 8149.0,
           "merchant": "Cyberport SE",
           "source_url": "https://geizhals.de/a3382344.html",
           "sku": "90YV0LW0-M0NA00",
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         },
         {
           "id": "rx9070xt",
@@ -975,7 +975,7 @@
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         },
         {
           "id": "hdd8",
@@ -986,18 +986,18 @@
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         },
         {
           "id": "hdd18",
-          "price_eur": 1047.03,
-          "merchant": "Jacob Elektronik GmbH",
+          "price_eur": 1021.04,
+          "merchant": "Cyberport SE",
           "source_url": "https://geizhals.de/a2643408.html",
           "sku": "HDWG51JUZSVA",
           "checked_date": "2026-10-29",
           "in_stock": true,
           "new_condition": true,
-          "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+          "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
         }
       ],
       "quality": "api_filtered",

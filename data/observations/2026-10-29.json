@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "provider": "scrappa_geizhals_product",
-  "retrieved_at": "2026-10-29T07:49:50.093399+00:00",
+  "retrieved_at": "2026-10-29T15:13:07.864536+00:00",
   "offers": [
     {
       "id": "ram32",
@@ -12,7 +12,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     },
     {
       "id": "ram64",
@@ -23,7 +23,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     },
     {
       "id": "ssd1",
@@ -34,18 +34,18 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     },
     {
       "id": "ssd2",
-      "price_eur": 419.0,
-      "merchant": "Galaxus Deutschland GmbH",
+      "price_eur": 429.0,
+      "merchant": "Alternate GmbH",
       "source_url": "https://geizhals.de/a2795958.html",
       "sku": "MZ-V9P2T0BW",
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     },
     {
       "id": "rtx5070",
@@ -56,7 +56,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     },
     {
       "id": "rtx5080",
@@ -67,18 +67,18 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     },
     {
       "id": "rtx5090",
-      "price_eur": 7949.0,
+      "price_eur": 8149.0,
       "merchant": "Cyberport SE",
       "source_url": "https://geizhals.de/a3382344.html",
       "sku": "90YV0LW0-M0NA00",
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     },
     {
       "id": "rx9070xt",
@@ -89,7 +89,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     },
     {
       "id": "hdd8",
@@ -100,18 +100,18 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     },
     {
       "id": "hdd18",
-      "price_eur": 1047.03,
-      "merchant": "Jacob Elektronik GmbH",
+      "price_eur": 1021.04,
+      "merchant": "Cyberport SE",
       "source_url": "https://geizhals.de/a2643408.html",
       "sku": "HDWG51JUZSVA",
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:49:50.093399+00:00"
+      "api_retrieved_at": "2026-10-29T15:13:07.864536+00:00"
     }
   ],
   "problems": []
