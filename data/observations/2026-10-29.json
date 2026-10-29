@@ -1,18 +1,18 @@
 {
   "date": "2026-10-29",
   "provider": "scrappa_geizhals_product",
-  "retrieved_at": "2026-10-29T07:34:33.478785+00:00",
+  "retrieved_at": "2026-10-29T07:47:19.422659+00:00",
   "offers": [
     {
       "id": "ram32",
-      "price_eur": 620.22,
-      "merchant": "Caseking GmbH",
+      "price_eur": 619.9,
+      "merchant": "Alternate GmbH",
       "source_url": "https://geizhals.de/a2998430.html",
       "sku": "CMK32GX5M2B6000Z30",
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     },
     {
       "id": "ram64",
@@ -23,18 +23,18 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     },
     {
       "id": "ssd1",
-      "price_eur": 219.99,
-      "merchant": "Galaxus Deutschland GmbH",
+      "price_eur": 219.9,
+      "merchant": "Alternate GmbH",
       "source_url": "https://geizhals.de/a2795961.html",
       "sku": "MZ-V9P1T0BW",
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     },
     {
       "id": "ssd2",
@@ -45,7 +45,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     },
     {
       "id": "rtx5070",
@@ -56,7 +56,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     },
     {
       "id": "rtx5080",
@@ -67,7 +67,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     },
     {
       "id": "rtx5090",
@@ -78,7 +78,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     },
     {
       "id": "rx9070xt",
@@ -89,7 +89,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     },
     {
       "id": "hdd8",
@@ -100,7 +100,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     },
     {
       "id": "hdd18",
@@ -111,7 +111,7 @@
       "checked_date": "2026-10-29",
       "in_stock": true,
       "new_condition": true,
-      "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+      "api_retrieved_at": "2026-10-29T07:47:19.422659+00:00"
     }
   ],
   "problems": []
