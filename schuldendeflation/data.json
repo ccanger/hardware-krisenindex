@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T07:48:55+00:00",
+  "updated_at": "2026-10-29T07:50:04+00:00",
   "timezone": "Europe/Berlin",
   "records": [
     {
       "date": "2026-04-29",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -93,6 +93,12 @@
           "observed_at": "2026-04-29",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4561.685,
+          "observed_at": "2026-04-29",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -101,7 +107,7 @@
     },
     {
       "date": "2026-04-30",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -189,6 +195,12 @@
           "observed_at": "2026-04-30",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4626.685,
+          "observed_at": "2026-04-30",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -197,7 +209,7 @@
     },
     {
       "date": "2026-05-01",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -285,6 +297,12 @@
           "observed_at": "2026-05-01",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4613.835,
+          "observed_at": "2026-05-01",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -293,7 +311,7 @@
     },
     {
       "date": "2026-05-04",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -381,6 +399,12 @@
           "observed_at": "2026-05-04",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4519.155,
+          "observed_at": "2026-05-04",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -389,7 +413,7 @@
     },
     {
       "date": "2026-05-05",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -477,6 +501,12 @@
           "observed_at": "2026-05-05",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4593.87,
+          "observed_at": "2026-05-05",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -485,7 +515,7 @@
     },
     {
       "date": "2026-05-06",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -573,6 +603,12 @@
           "observed_at": "2026-05-06",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4699.055,
+          "observed_at": "2026-05-06",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -581,7 +617,7 @@
     },
     {
       "date": "2026-05-07",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -669,6 +705,12 @@
           "observed_at": "2026-05-07",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4704.405,
+          "observed_at": "2026-05-07",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -677,7 +719,7 @@
     },
     {
       "date": "2026-05-08",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -765,6 +807,12 @@
           "observed_at": "2026-05-08",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4715.715,
+          "observed_at": "2026-05-08",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -773,7 +821,7 @@
     },
     {
       "date": "2026-05-11",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -861,6 +909,12 @@
           "observed_at": "2026-05-11",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4767.67,
+          "observed_at": "2026-05-11",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -869,7 +923,7 @@
     },
     {
       "date": "2026-05-12",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -957,6 +1011,12 @@
           "observed_at": "2026-05-12",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4717.12,
+          "observed_at": "2026-05-12",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -965,7 +1025,7 @@
     },
     {
       "date": "2026-05-13",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1053,6 +1113,12 @@
           "observed_at": "2026-05-13",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4696.62,
+          "observed_at": "2026-05-13",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1061,7 +1127,7 @@
     },
     {
       "date": "2026-05-14",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1149,6 +1215,12 @@
           "observed_at": "2026-05-14",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4652.15,
+          "observed_at": "2026-05-14",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1157,7 +1229,7 @@
     },
     {
       "date": "2026-05-15",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1245,6 +1317,12 @@
           "observed_at": "2026-05-15",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4540.645,
+          "observed_at": "2026-05-15",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1253,7 +1331,7 @@
     },
     {
       "date": "2026-05-18",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1341,6 +1419,12 @@
           "observed_at": "2026-05-18",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4581.995,
+          "observed_at": "2026-05-18",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1349,7 +1433,7 @@
     },
     {
       "date": "2026-05-19",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1437,6 +1521,12 @@
           "observed_at": "2026-05-19",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4489.485,
+          "observed_at": "2026-05-19",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1445,7 +1535,7 @@
     },
     {
       "date": "2026-05-20",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1533,6 +1623,12 @@
           "observed_at": "2026-05-20",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4546.735,
+          "observed_at": "2026-05-20",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1541,7 +1637,7 @@
     },
     {
       "date": "2026-05-21",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1629,6 +1725,12 @@
           "observed_at": "2026-05-21",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4511.74,
+          "observed_at": "2026-05-21",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1637,7 +1739,7 @@
     },
     {
       "date": "2026-05-22",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1725,6 +1827,12 @@
           "observed_at": "2026-05-22",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4509.69,
+          "observed_at": "2026-05-22",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1733,7 +1841,7 @@
     },
     {
       "date": "2026-05-25",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 4,
       "inputs": {
@@ -1787,14 +1895,21 @@
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
         }
       },
-      "assets": {},
+      "assets": {
+        "GOLD": {
+          "value": 4559.713,
+          "observed_at": "2026-05-25",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
+        }
+      },
       "errors": {},
       "phase": "ruhig",
       "method": "RETROSPEKTIV REKONSTRUIERT, nicht historisch zeitgerecht veröffentlichte Information. Gold XAU/USD Spot Tagesschlusswerte."
     },
     {
       "date": "2026-05-26",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1882,6 +1997,12 @@
           "observed_at": "2026-05-26",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4519.68,
+          "observed_at": "2026-05-26",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1890,7 +2011,7 @@
     },
     {
       "date": "2026-05-27",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -1978,6 +2099,12 @@
           "observed_at": "2026-05-27",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4447.065,
+          "observed_at": "2026-05-27",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -1986,7 +2113,7 @@
     },
     {
       "date": "2026-05-28",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -2074,6 +2201,12 @@
           "observed_at": "2026-05-28",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4495.09,
+          "observed_at": "2026-05-28",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2082,7 +2215,7 @@
     },
     {
       "date": "2026-05-29",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -2170,6 +2303,12 @@
           "observed_at": "2026-05-29",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4540.53,
+          "observed_at": "2026-05-29",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2178,7 +2317,7 @@
     },
     {
       "date": "2026-06-01",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -2266,6 +2405,12 @@
           "observed_at": "2026-06-01",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4484.475,
+          "observed_at": "2026-06-01",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2274,7 +2419,7 @@
     },
     {
       "date": "2026-06-02",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -2362,6 +2507,12 @@
           "observed_at": "2026-06-02",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4474.465,
+          "observed_at": "2026-06-02",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2370,7 +2521,7 @@
     },
     {
       "date": "2026-06-03",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -2458,6 +2609,12 @@
           "observed_at": "2026-06-03",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4457.54,
+          "observed_at": "2026-06-03",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2466,7 +2623,7 @@
     },
     {
       "date": "2026-06-04",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -2554,6 +2711,12 @@
           "observed_at": "2026-06-04",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4461.925,
+          "observed_at": "2026-06-04",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2562,7 +2725,7 @@
     },
     {
       "date": "2026-06-05",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 5.0,
       "coverage": 6,
       "inputs": {
@@ -2650,6 +2813,12 @@
           "observed_at": "2026-06-05",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4327.885,
+          "observed_at": "2026-06-05",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2658,7 +2827,7 @@
     },
     {
       "date": "2026-06-08",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -2746,6 +2915,12 @@
           "observed_at": "2026-06-08",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4317.88,
+          "observed_at": "2026-06-08",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2754,7 +2929,7 @@
     },
     {
       "date": "2026-06-09",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -2842,6 +3017,12 @@
           "observed_at": "2026-06-09",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4221.62,
+          "observed_at": "2026-06-09",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2850,7 +3031,7 @@
     },
     {
       "date": "2026-06-10",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 5.0,
       "coverage": 6,
       "inputs": {
@@ -2938,6 +3119,12 @@
           "observed_at": "2026-06-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4047.03,
+          "observed_at": "2026-06-10",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -2946,7 +3133,7 @@
     },
     {
       "date": "2026-06-11",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3034,6 +3221,12 @@
           "observed_at": "2026-06-11",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4219.66,
+          "observed_at": "2026-06-11",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3042,7 +3235,7 @@
     },
     {
       "date": "2026-06-12",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3130,6 +3323,12 @@
           "observed_at": "2026-06-12",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4217.96,
+          "observed_at": "2026-06-12",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3138,7 +3337,7 @@
     },
     {
       "date": "2026-06-15",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3226,6 +3425,12 @@
           "observed_at": "2026-06-15",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4345.1,
+          "observed_at": "2026-06-15",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3234,7 +3439,7 @@
     },
     {
       "date": "2026-06-16",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3322,6 +3527,12 @@
           "observed_at": "2026-06-16",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4330.435,
+          "observed_at": "2026-06-16",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3330,7 +3541,7 @@
     },
     {
       "date": "2026-06-17",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3418,6 +3629,12 @@
           "observed_at": "2026-06-17",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4274.436,
+          "observed_at": "2026-06-17",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3426,7 +3643,7 @@
     },
     {
       "date": "2026-06-18",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3514,6 +3731,12 @@
           "observed_at": "2026-06-18",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4188.264,
+          "observed_at": "2026-06-18",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3522,7 +3745,7 @@
     },
     {
       "date": "2026-06-19",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 4,
       "inputs": {
@@ -3576,14 +3799,21 @@
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
         }
       },
-      "assets": {},
+      "assets": {
+        "GOLD": {
+          "value": 4155.535,
+          "observed_at": "2026-06-19",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
+        }
+      },
       "errors": {},
       "phase": "ruhig",
       "method": "RETROSPEKTIV REKONSTRUIERT, nicht historisch zeitgerecht veröffentlichte Information. Gold XAU/USD Spot Tagesschlusswerte."
     },
     {
       "date": "2026-06-22",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3671,6 +3901,12 @@
           "observed_at": "2026-06-22",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4188.185,
+          "observed_at": "2026-06-22",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3679,7 +3915,7 @@
     },
     {
       "date": "2026-06-23",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3767,6 +4003,12 @@
           "observed_at": "2026-06-23",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4098.907,
+          "observed_at": "2026-06-23",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3775,7 +4017,7 @@
     },
     {
       "date": "2026-06-24",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3863,6 +4105,12 @@
           "observed_at": "2026-06-24",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4012.531,
+          "observed_at": "2026-06-24",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3871,7 +4119,7 @@
     },
     {
       "date": "2026-06-25",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -3959,6 +4207,12 @@
           "observed_at": "2026-06-25",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4015.19,
+          "observed_at": "2026-06-25",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -3967,7 +4221,7 @@
     },
     {
       "date": "2026-06-26",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4055,6 +4309,12 @@
           "observed_at": "2026-06-26",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4083.386,
+          "observed_at": "2026-06-26",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4063,7 +4323,7 @@
     },
     {
       "date": "2026-06-29",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4151,6 +4411,12 @@
           "observed_at": "2026-06-29",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4015.115,
+          "observed_at": "2026-06-29",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4159,7 +4425,7 @@
     },
     {
       "date": "2026-06-30",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4247,6 +4513,12 @@
           "observed_at": "2026-06-30",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4005.952,
+          "observed_at": "2026-06-30",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4255,7 +4527,7 @@
     },
     {
       "date": "2026-07-01",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4343,6 +4615,12 @@
           "observed_at": "2026-07-01",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4035.198,
+          "observed_at": "2026-07-01",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4351,7 +4629,7 @@
     },
     {
       "date": "2026-07-02",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4439,6 +4717,12 @@
           "observed_at": "2026-07-02",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4127.06,
+          "observed_at": "2026-07-02",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4447,7 +4731,7 @@
     },
     {
       "date": "2026-07-03",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 4,
       "inputs": {
@@ -4501,14 +4785,21 @@
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
         }
       },
-      "assets": {},
+      "assets": {
+        "GOLD": {
+          "value": 4175.091,
+          "observed_at": "2026-07-03",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
+        }
+      },
       "errors": {},
       "phase": "ruhig",
       "method": "RETROSPEKTIV REKONSTRUIERT, nicht historisch zeitgerecht veröffentlichte Information. Gold XAU/USD Spot Tagesschlusswerte."
     },
     {
       "date": "2026-07-06",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4596,6 +4887,12 @@
           "observed_at": "2026-07-06",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4157.557,
+          "observed_at": "2026-07-06",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4604,7 +4901,7 @@
     },
     {
       "date": "2026-07-07",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4692,6 +4989,12 @@
           "observed_at": "2026-07-07",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4098.489,
+          "observed_at": "2026-07-07",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4700,7 +5003,7 @@
     },
     {
       "date": "2026-07-08",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4788,6 +5091,12 @@
           "observed_at": "2026-07-08",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4076.307,
+          "observed_at": "2026-07-08",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4796,7 +5105,7 @@
     },
     {
       "date": "2026-07-09",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4884,6 +5193,12 @@
           "observed_at": "2026-07-09",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4123.56,
+          "observed_at": "2026-07-09",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4892,7 +5207,7 @@
     },
     {
       "date": "2026-07-10",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -4980,6 +5295,12 @@
           "observed_at": "2026-07-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4119.172,
+          "observed_at": "2026-07-10",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -4988,7 +5309,7 @@
     },
     {
       "date": "2026-07-13",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5076,6 +5397,12 @@
           "observed_at": "2026-07-13",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4001.438,
+          "observed_at": "2026-07-13",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5084,7 +5411,7 @@
     },
     {
       "date": "2026-07-14",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5172,6 +5499,12 @@
           "observed_at": "2026-07-14",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4053.246,
+          "observed_at": "2026-07-14",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5180,7 +5513,7 @@
     },
     {
       "date": "2026-07-15",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5268,6 +5601,12 @@
           "observed_at": "2026-07-15",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4058.1,
+          "observed_at": "2026-07-15",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5276,7 +5615,7 @@
     },
     {
       "date": "2026-07-16",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5364,6 +5703,12 @@
           "observed_at": "2026-07-16",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 3986.07,
+          "observed_at": "2026-07-16",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5372,7 +5717,7 @@
     },
     {
       "date": "2026-07-17",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5460,6 +5805,12 @@
           "observed_at": "2026-07-17",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4017.059,
+          "observed_at": "2026-07-17",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5468,7 +5819,7 @@
     },
     {
       "date": "2026-07-20",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5556,6 +5907,12 @@
           "observed_at": "2026-07-20",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4010.055,
+          "observed_at": "2026-07-20",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5564,7 +5921,7 @@
     },
     {
       "date": "2026-07-21",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5652,6 +6009,12 @@
           "observed_at": "2026-07-21",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4080.84,
+          "observed_at": "2026-07-21",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5660,7 +6023,7 @@
     },
     {
       "date": "2026-07-22",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5748,6 +6111,12 @@
           "observed_at": "2026-07-22",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4133.489,
+          "observed_at": "2026-07-22",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5756,7 +6125,7 @@
     },
     {
       "date": "2026-07-23",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5844,6 +6213,12 @@
           "observed_at": "2026-07-23",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4046.901,
+          "observed_at": "2026-07-23",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5852,7 +6227,7 @@
     },
     {
       "date": "2026-07-24",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -5940,6 +6315,12 @@
           "observed_at": "2026-07-24",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4053.309,
+          "observed_at": "2026-07-24",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -5948,7 +6329,7 @@
     },
     {
       "date": "2026-07-27",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6036,6 +6417,12 @@
           "observed_at": "2026-07-27",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4073.327,
+          "observed_at": "2026-07-27",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6044,7 +6431,7 @@
     },
     {
       "date": "2026-07-28",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6132,6 +6519,12 @@
           "observed_at": "2026-07-28",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4024.941,
+          "observed_at": "2026-07-28",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6140,7 +6533,7 @@
     },
     {
       "date": "2026-07-29",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 5.0,
       "coverage": 6,
       "inputs": {
@@ -6228,6 +6621,12 @@
           "observed_at": "2026-07-29",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4084.697,
+          "observed_at": "2026-07-29",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6236,7 +6635,7 @@
     },
     {
       "date": "2026-07-30",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6324,6 +6723,12 @@
           "observed_at": "2026-07-30",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4106.257,
+          "observed_at": "2026-07-30",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6332,7 +6737,7 @@
     },
     {
       "date": "2026-07-31",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6420,6 +6825,12 @@
           "observed_at": "2026-07-31",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4046.954,
+          "observed_at": "2026-07-31",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6428,7 +6839,7 @@
     },
     {
       "date": "2026-08-03",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6516,6 +6927,12 @@
           "observed_at": "2026-08-03",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4053.919,
+          "observed_at": "2026-08-03",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6524,7 +6941,7 @@
     },
     {
       "date": "2026-08-04",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6612,6 +7029,12 @@
           "observed_at": "2026-08-04",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4072.676,
+          "observed_at": "2026-08-04",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6620,7 +7043,7 @@
     },
     {
       "date": "2026-08-05",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6708,6 +7131,12 @@
           "observed_at": "2026-08-05",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4278.202,
+          "observed_at": "2026-08-05",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6716,7 +7145,7 @@
     },
     {
       "date": "2026-08-06",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6804,6 +7233,12 @@
           "observed_at": "2026-08-06",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4252.465,
+          "observed_at": "2026-08-06",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6812,7 +7247,7 @@
     },
     {
       "date": "2026-08-07",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6900,6 +7335,12 @@
           "observed_at": "2026-08-07",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4341.357,
+          "observed_at": "2026-08-07",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -6908,7 +7349,7 @@
     },
     {
       "date": "2026-08-10",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -6996,6 +7437,12 @@
           "observed_at": "2026-08-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4402.341,
+          "observed_at": "2026-08-10",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7004,7 +7451,7 @@
     },
     {
       "date": "2026-08-11",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7092,6 +7539,12 @@
           "observed_at": "2026-08-11",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4371.521,
+          "observed_at": "2026-08-11",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7100,7 +7553,7 @@
     },
     {
       "date": "2026-08-12",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7188,6 +7641,12 @@
           "observed_at": "2026-08-12",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4414.282,
+          "observed_at": "2026-08-12",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7196,7 +7655,7 @@
     },
     {
       "date": "2026-08-13",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7284,6 +7743,12 @@
           "observed_at": "2026-08-13",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4356.9,
+          "observed_at": "2026-08-13",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7292,7 +7757,7 @@
     },
     {
       "date": "2026-08-14",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7380,6 +7845,12 @@
           "observed_at": "2026-08-14",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4375.787,
+          "observed_at": "2026-08-14",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7388,7 +7859,7 @@
     },
     {
       "date": "2026-08-17",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7476,6 +7947,12 @@
           "observed_at": "2026-08-17",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4425.833,
+          "observed_at": "2026-08-17",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7484,7 +7961,7 @@
     },
     {
       "date": "2026-08-18",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7572,6 +8049,12 @@
           "observed_at": "2026-08-18",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4333.085,
+          "observed_at": "2026-08-18",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7580,7 +8063,7 @@
     },
     {
       "date": "2026-08-19",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7668,6 +8151,12 @@
           "observed_at": "2026-08-19",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4511.83,
+          "observed_at": "2026-08-19",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7676,7 +8165,7 @@
     },
     {
       "date": "2026-08-20",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7764,6 +8253,12 @@
           "observed_at": "2026-08-20",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4526.395,
+          "observed_at": "2026-08-20",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7772,7 +8267,7 @@
     },
     {
       "date": "2026-08-21",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7860,6 +8355,12 @@
           "observed_at": "2026-08-21",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4603.895,
+          "observed_at": "2026-08-21",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7868,7 +8369,7 @@
     },
     {
       "date": "2026-08-24",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -7956,6 +8457,12 @@
           "observed_at": "2026-08-24",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4680.005,
+          "observed_at": "2026-08-24",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -7964,7 +8471,7 @@
     },
     {
       "date": "2026-08-25",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8052,6 +8559,12 @@
           "observed_at": "2026-08-25",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4654.96,
+          "observed_at": "2026-08-25",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -8060,7 +8573,7 @@
     },
     {
       "date": "2026-08-26",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8148,6 +8661,12 @@
           "observed_at": "2026-08-26",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4623.71,
+          "observed_at": "2026-08-26",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -8156,7 +8675,7 @@
     },
     {
       "date": "2026-08-27",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8244,6 +8763,12 @@
           "observed_at": "2026-08-27",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4603.955,
+          "observed_at": "2026-08-27",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -8252,7 +8777,7 @@
     },
     {
       "date": "2026-08-28",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8348,7 +8873,7 @@
     },
     {
       "date": "2026-08-31",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8436,6 +8961,12 @@
           "observed_at": "2026-08-31",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4452.387,
+          "observed_at": "2026-08-31",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -8444,7 +8975,7 @@
     },
     {
       "date": "2026-09-01",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8532,6 +9063,12 @@
           "observed_at": "2026-09-01",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4353.6,
+          "observed_at": "2026-09-01",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -8540,7 +9077,7 @@
     },
     {
       "date": "2026-09-02",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8628,6 +9165,12 @@
           "observed_at": "2026-09-02",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4385.671,
+          "observed_at": "2026-09-02",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -8636,7 +9179,7 @@
     },
     {
       "date": "2026-09-03",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8724,6 +9267,12 @@
           "observed_at": "2026-09-03",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4480.151,
+          "observed_at": "2026-09-03",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -8732,7 +9281,7 @@
     },
     {
       "date": "2026-09-04",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8820,6 +9369,12 @@
           "observed_at": "2026-09-04",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4430.754,
+          "observed_at": "2026-09-04",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -8828,7 +9383,7 @@
     },
     {
       "date": "2026-09-07",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 4,
       "inputs": {
@@ -8882,14 +9437,21 @@
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
         }
       },
-      "assets": {},
+      "assets": {
+        "GOLD": {
+          "value": 4420.635,
+          "observed_at": "2026-09-07",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
+        }
+      },
       "errors": {},
       "phase": "ruhig",
       "method": "RETROSPEKTIV REKONSTRUIERT, nicht historisch zeitgerecht veröffentlichte Information. Gold XAU/USD Spot Tagesschlusswerte."
     },
     {
       "date": "2026-09-08",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -8977,6 +9539,12 @@
           "observed_at": "2026-09-08",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4351.035,
+          "observed_at": "2026-09-08",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -8985,7 +9553,7 @@
     },
     {
       "date": "2026-09-09",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9073,6 +9641,12 @@
           "observed_at": "2026-09-09",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4394.18,
+          "observed_at": "2026-09-09",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -9081,7 +9655,7 @@
     },
     {
       "date": "2026-09-10",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9169,6 +9743,12 @@
           "observed_at": "2026-09-10",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4361.8197,
+          "observed_at": "2026-09-10",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -9177,7 +9757,7 @@
     },
     {
       "date": "2026-09-11",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9273,7 +9853,7 @@
     },
     {
       "date": "2026-09-14",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9361,6 +9941,12 @@
           "observed_at": "2026-09-14",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4288.356,
+          "observed_at": "2026-09-14",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -9369,7 +9955,7 @@
     },
     {
       "date": "2026-09-15",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9457,6 +10043,12 @@
           "observed_at": "2026-09-15",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4283.466,
+          "observed_at": "2026-09-15",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -9465,7 +10057,7 @@
     },
     {
       "date": "2026-09-16",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9553,6 +10145,12 @@
           "observed_at": "2026-09-16",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4271.827,
+          "observed_at": "2026-09-16",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -9561,7 +10159,7 @@
     },
     {
       "date": "2026-09-17",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9649,6 +10247,12 @@
           "observed_at": "2026-09-17",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4346.488,
+          "observed_at": "2026-09-17",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -9657,7 +10261,7 @@
     },
     {
       "date": "2026-09-18",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9745,6 +10349,12 @@
           "observed_at": "2026-09-18",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4378.482,
+          "observed_at": "2026-09-18",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -9753,7 +10363,7 @@
     },
     {
       "date": "2026-09-21",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9841,6 +10451,12 @@
           "observed_at": "2026-09-21",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4368.557,
+          "observed_at": "2026-09-21",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -9849,7 +10465,7 @@
     },
     {
       "date": "2026-09-22",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -9937,6 +10553,12 @@
           "observed_at": "2026-09-22",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4370.1005,
+          "observed_at": "2026-09-22",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -9945,7 +10567,7 @@
     },
     {
       "date": "2026-09-23",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10033,6 +10655,12 @@
           "observed_at": "2026-09-23",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4288.5735,
+          "observed_at": "2026-09-23",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10041,7 +10669,7 @@
     },
     {
       "date": "2026-09-24",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10129,6 +10757,12 @@
           "observed_at": "2026-09-24",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4265.026,
+          "observed_at": "2026-09-24",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10137,7 +10771,7 @@
     },
     {
       "date": "2026-09-25",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10225,6 +10859,12 @@
           "observed_at": "2026-09-25",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4284.0105,
+          "observed_at": "2026-09-25",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10233,7 +10873,7 @@
     },
     {
       "date": "2026-09-28",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10321,6 +10961,12 @@
           "observed_at": "2026-09-28",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4127.4715,
+          "observed_at": "2026-09-28",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10329,7 +10975,7 @@
     },
     {
       "date": "2026-09-29",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10417,6 +11063,12 @@
           "observed_at": "2026-09-29",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4184.999,
+          "observed_at": "2026-09-29",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10425,7 +11077,7 @@
     },
     {
       "date": "2026-09-30",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10513,6 +11165,12 @@
           "observed_at": "2026-09-30",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4156.069,
+          "observed_at": "2026-09-30",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10521,7 +11179,7 @@
     },
     {
       "date": "2026-10-01",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10609,6 +11267,12 @@
           "observed_at": "2026-10-01",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4182.007,
+          "observed_at": "2026-10-01",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10617,7 +11281,7 @@
     },
     {
       "date": "2026-10-02",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10705,6 +11369,12 @@
           "observed_at": "2026-10-02",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4140.1675,
+          "observed_at": "2026-10-02",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10713,7 +11383,7 @@
     },
     {
       "date": "2026-10-05",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10801,6 +11471,12 @@
           "observed_at": "2026-10-05",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4134.3095,
+          "observed_at": "2026-10-05",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10809,7 +11485,7 @@
     },
     {
       "date": "2026-10-06",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10897,6 +11573,12 @@
           "observed_at": "2026-10-06",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4165.9665,
+          "observed_at": "2026-10-06",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -10905,7 +11587,7 @@
     },
     {
       "date": "2026-10-07",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -10993,6 +11675,12 @@
           "observed_at": "2026-10-07",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4108.441,
+          "observed_at": "2026-10-07",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11001,7 +11689,7 @@
     },
     {
       "date": "2026-10-08",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -11089,6 +11777,12 @@
           "observed_at": "2026-10-08",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4144.85,
+          "observed_at": "2026-10-08",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11097,7 +11791,7 @@
     },
     {
       "date": "2026-10-09",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -11185,6 +11879,12 @@
           "observed_at": "2026-10-09",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4194.8068,
+          "observed_at": "2026-10-09",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11193,7 +11893,7 @@
     },
     {
       "date": "2026-10-12",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 5,
       "inputs": {
@@ -11268,6 +11968,12 @@
           "observed_at": "2026-10-12",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4170.808,
+          "observed_at": "2026-10-12",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11276,7 +11982,7 @@
     },
     {
       "date": "2026-10-13",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -11364,6 +12070,12 @@
           "observed_at": "2026-10-13",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4155.2295,
+          "observed_at": "2026-10-13",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11372,7 +12084,7 @@
     },
     {
       "date": "2026-10-14",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -11460,6 +12172,12 @@
           "observed_at": "2026-10-14",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4111.8935,
+          "observed_at": "2026-10-14",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11468,7 +12186,7 @@
     },
     {
       "date": "2026-10-15",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -11556,6 +12274,12 @@
           "observed_at": "2026-10-15",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4156.037,
+          "observed_at": "2026-10-15",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11564,7 +12288,7 @@
     },
     {
       "date": "2026-10-16",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -11652,6 +12376,12 @@
           "observed_at": "2026-10-16",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4165.4517,
+          "observed_at": "2026-10-16",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11660,7 +12390,7 @@
     },
     {
       "date": "2026-10-19",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -11748,6 +12478,12 @@
           "observed_at": "2026-10-19",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4132.565,
+          "observed_at": "2026-10-19",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11756,7 +12492,7 @@
     },
     {
       "date": "2026-10-20",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -11844,6 +12580,12 @@
           "observed_at": "2026-10-20",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4114.44,
+          "observed_at": "2026-10-20",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11852,7 +12594,7 @@
     },
     {
       "date": "2026-10-21",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -11940,6 +12682,12 @@
           "observed_at": "2026-10-21",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4125.753,
+          "observed_at": "2026-10-21",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -11948,7 +12696,7 @@
     },
     {
       "date": "2026-10-22",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -12036,6 +12784,12 @@
           "observed_at": "2026-10-22",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4023.87,
+          "observed_at": "2026-10-22",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -12044,7 +12798,7 @@
     },
     {
       "date": "2026-10-23",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -12132,6 +12886,12 @@
           "observed_at": "2026-10-23",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 3996.195,
+          "observed_at": "2026-10-23",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -12140,7 +12900,7 @@
     },
     {
       "date": "2026-10-26",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -12228,6 +12988,12 @@
           "observed_at": "2026-10-26",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4006.2498,
+          "observed_at": "2026-10-26",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -12236,7 +13002,7 @@
     },
     {
       "date": "2026-10-27",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -12324,6 +13090,12 @@
           "observed_at": "2026-10-27",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4063.2238,
+          "observed_at": "2026-10-27",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -12332,7 +13104,7 @@
     },
     {
       "date": "2026-10-28",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": null,
       "coverage": 2,
       "inputs": {
@@ -12395,6 +13167,12 @@
           "observed_at": "2026-10-28",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1y&interval=1d",
           "observation_kind": "Immobilienaktien ETF Schluss"
+        },
+        "GOLD": {
+          "value": 4055.8079,
+          "observed_at": "2026-10-28",
+          "url": "https://api.goldprice.dev/v1/public/xau-history",
+          "observation_kind": "XAU/USD Spot Tages-Schlusswert"
         }
       },
       "errors": {},
@@ -12403,7 +13181,7 @@
     },
     {
       "date": "2026-10-29",
-      "collected_at": "2026-10-29T07:48:55+00:00",
+      "collected_at": "2026-10-29T07:50:04+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -12485,12 +13263,6 @@
         }
       },
       "assets": {
-        "GOLD": {
-          "value": 4028.5,
-          "observed_at": "2026-10-29T07:48:31Z",
-          "observation_kind": "Spot-Momentaufnahme, kein offizieller Schlusskurs",
-          "url": "https://api.gold-api.com/price/XAU"
-        },
         "VNQ": {
           "value": 91.79,
           "observed_at": "2026-10-28",
@@ -12504,7 +13276,9 @@
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
         }
       },
-      "errors": {},
+      "errors": {
+        "GOLD": "<urlopen error [Errno -2] Name or service not known>"
+      },
       "phase": "ruhig",
       "method": "Heuristischer Marktstress, keine Krisenprognose; fehlende Komponenten NICHT null."
     }
@@ -12516,6 +13290,6 @@
     "data_type": "retrospective reconstruction, no publication-lag adjustment",
     "gold_history": "XAU/USD spot daily close from goldprice.dev",
     "source_errors": {},
-    "backfilled_at": "2026-10-29T07:48:55.730146+00:00"
+    "backfilled_at": "2026-10-29T07:50:04.210511+00:00"
   }
 }
