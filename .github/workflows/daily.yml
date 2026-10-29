@@ -57,7 +57,7 @@ jobs:
           from pathlib import Path
           p=Path('schuldendeflation/data.json')
           data=json.loads(p.read_text())
-          if not data.get('historical_backfill'):
+          if not data.get('historical_backfill') or sum(bool(x.get('assets',{}).get('GOLD')) for x in data.get('records',[]) if x.get('date','') < '2026-10-29') < 100:
               subprocess.run(['python','schuldendeflation/backfill.py'],check=True)
           else:
               print('Historical data already exists')
