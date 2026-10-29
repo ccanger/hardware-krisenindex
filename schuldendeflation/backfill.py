@@ -38,8 +38,19 @@ def main():
    try:hist[c]=f.result()
    except Exception as e:errors[c]=str(e)[:160]
  assets={}
+ def gold_spot():
+  url="https://api.goldprice.dev/v1/public/xau-history"
+  obj=json.loads(core.read_url(url))
+  if obj.get('symbol')!='XAU-USD-SPOT' or obj.get('interval')!='1d':
+   raise ValueError("Unexpected XAU/USD historical source")
+  samples={}
+  for row in obj['series']:
+   day=date.fromisoformat(row['date']);price=float(row['close'])
+   if START<=day<=END and math.isfinite(price) and price>0:
+    samples[day]=round(price,4)
+  return samples,url
  with ThreadPoolExecutor(max_workers=2) as pool:
-  fs={pool.submit(yahoo,t):t for t in ['VNQ','GC=F']}
+  fs={pool.submit(yahoo,'VNQ'):'VNQ',pool.submit(gold_spot):'XAU_SPOT'}
   for f in as_completed(fs):
    try:assets[fs[f]]=f.result()
    except Exception as e:errors[fs[f]]=str(e)[:160]
