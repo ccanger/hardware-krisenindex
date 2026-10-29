@@ -50,6 +50,8 @@ jobs:
       - name: Note missing API credentials
         if: ${{ env.SCRAPPA_API_KEY == '' }}
         run: echo 'No SCRAPPA_API_KEY configured. Historical-only dashboard. No live prices claimed.'
+      - name: Probe historical data sources
+        run: python schuldendeflation/probe_sources.py
       - name: Update debt deflation radar observations
         run: python schuldendeflation/update.py
       - name: Commit collected observations
