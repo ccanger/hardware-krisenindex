@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T15:05:57.524887+00:00",
+  "updated_at": "2026-10-29T07:34:56.617534+00:00",
   "method": "Separater 10-SKU-Anschlussindex: HKI=331.6*(.4*R_RAM+.3*R_SSD+.2*R_GPU+.1*R_HDD)",
   "entries": [
     {
@@ -855,6 +855,149 @@
           "in_stock": true,
           "new_condition": true,
           "api_retrieved_at": "2026-10-28T15:05:36.440625+00:00"
+        }
+      ],
+      "quality": "api_filtered",
+      "note": "Drittanbieter-API, keine unabhängige Händlerbestätigung; Produktklassenpreisbasis und SKU-Mix sind verschieden."
+    },
+    {
+      "date": "2026-10-29",
+      "hki": 470.52,
+      "complete": true,
+      "coverage": {
+        "ram": {
+          "observed": 2,
+          "required": 1
+        },
+        "ssd": {
+          "observed": 2,
+          "required": 1
+        },
+        "gpu": {
+          "observed": 4,
+          "required": 2
+        },
+        "hdd": {
+          "observed": 2,
+          "required": 1
+        }
+      },
+      "relative_groups": {
+        "ram": 1.483789108938012,
+        "ssd": 1.405765050167224,
+        "gpu": 1.3494849829656983,
+        "hdd": 1.3378434590594415
+      },
+      "offers": [
+        {
+          "id": "ram32",
+          "price_eur": 620.22,
+          "merchant": "Caseking GmbH",
+          "source_url": "https://geizhals.de/a2998430.html",
+          "sku": "CMK32GX5M2B6000Z30",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+        },
+        {
+          "id": "ram64",
+          "price_eur": 1294.9,
+          "merchant": "Caseking GmbH",
+          "source_url": "https://geizhals.de/a2876917.html",
+          "sku": "KF560C36BBEK2-64",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+        },
+        {
+          "id": "ssd1",
+          "price_eur": 219.99,
+          "merchant": "Galaxus Deutschland GmbH",
+          "source_url": "https://geizhals.de/a2795961.html",
+          "sku": "MZ-V9P1T0BW",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+        },
+        {
+          "id": "ssd2",
+          "price_eur": 419.0,
+          "merchant": "Galaxus Deutschland GmbH",
+          "source_url": "https://geizhals.de/a2795958.html",
+          "sku": "MZ-V9P2T0BW",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+        },
+        {
+          "id": "rtx5070",
+          "price_eur": 939.56,
+          "merchant": "Proshop a/s",
+          "source_url": "https://geizhals.de/a3395746.html",
+          "sku": "VCG507012TFXPB1",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+        },
+        {
+          "id": "rtx5080",
+          "price_eur": 1949.0,
+          "merchant": "Cyberport SE",
+          "source_url": "https://geizhals.de/a3417008.html",
+          "sku": "ZT-B50800D2-10P",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+        },
+        {
+          "id": "rtx5090",
+          "price_eur": 7949.0,
+          "merchant": "Cyberport SE",
+          "source_url": "https://geizhals.de/a3382344.html",
+          "sku": "90YV0LW0-M0NA00",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+        },
+        {
+          "id": "rx9070xt",
+          "price_eur": 894.99,
+          "merchant": "x-kom GmbH",
+          "source_url": "https://geizhals.de/a3431083.html",
+          "sku": "RX-97TSWF3B9",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+        },
+        {
+          "id": "hdd8",
+          "price_eur": 339.9,
+          "merchant": "Alza.cz, a.s.",
+          "source_url": "https://geizhals.de/a2085161.html",
+          "sku": "ST8000VN004",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
+        },
+        {
+          "id": "hdd18",
+          "price_eur": 1047.03,
+          "merchant": "Jacob Elektronik GmbH",
+          "source_url": "https://geizhals.de/a2643408.html",
+          "sku": "HDWG51JUZSVA",
+          "checked_date": "2026-10-29",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-10-29T07:34:33.478785+00:00"
         }
       ],
       "quality": "api_filtered",
