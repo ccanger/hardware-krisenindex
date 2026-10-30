@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T15:13:29+00:00",
+  "updated_at": "2026-10-30T15:02:34+00:00",
   "timezone": "Europe/Berlin",
   "records": [
     {
@@ -13272,6 +13272,113 @@
         "VNQ": {
           "value": 93.42,
           "observed_at": "2026-10-29",
+          "observation_kind": "ETF-Tagesschlusskurs, Immobilienaktien-Proxy",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1mo&interval=1d"
+        },
+        "SP500": {
+          "value": 7743.98,
+          "observed_at": "2026-10-28",
+          "observation_kind": "US-Indexschlusskurs",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
+        }
+      },
+      "errors": {},
+      "phase": "ruhig",
+      "method": "Heuristischer Marktstress, keine Krisenprognose; fehlende Komponenten NICHT null."
+    },
+    {
+      "date": "2026-10-30",
+      "collected_at": "2026-10-30T15:02:34+00:00",
+      "score": 0.0,
+      "coverage": 6,
+      "inputs": {
+        "us_hy": 3.26,
+        "eu_hy": 3.48,
+        "vix": 17.2,
+        "funding": 0.04,
+        "drawdown": 0.95857,
+        "stlfsi": -0.5837
+      },
+      "points": {
+        "us_hy": 0,
+        "eu_hy": 0,
+        "vix": 0,
+        "funding": 0,
+        "drawdown": 0,
+        "stlfsi": 0
+      },
+      "metrics": {
+        "BAMLH0A0HYM2": {
+          "date": "2026-10-29",
+          "value": 3.26,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2025-01-01"
+        },
+        "BAMLHE00EHYIOAS": {
+          "date": "2026-10-29",
+          "value": 3.48,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLHE00EHYIOAS&cosd=2025-01-01"
+        },
+        "VIXCLS": {
+          "date": "2026-10-29",
+          "value": 17.2,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd=2025-01-01"
+        },
+        "SOFR": {
+          "date": "2026-10-29",
+          "value": 3.94,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR&cosd=2025-01-01"
+        },
+        "IORB": {
+          "date": "2026-10-30",
+          "value": 3.9,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IORB&cosd=2025-01-01"
+        },
+        "SP500": {
+          "date": "2026-10-28",
+          "value": 7743.98,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
+        },
+        "STLFSI4": {
+          "date": "2026-10-23",
+          "value": -0.5837,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=STLFSI4&cosd=2025-01-01"
+        },
+        "DFII10": {
+          "date": "2026-10-28",
+          "value": 2.67,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2025-01-01"
+        },
+        "WALCL": {
+          "date": "2026-10-28",
+          "value": 6745635.0,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
+        },
+        "SOFR_MINUS_IORB": {
+          "value": 0.04,
+          "date": "2026-10-29",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR&cosd=2025-01-01"
+        },
+        "SP500_DRAWDOWN": {
+          "value": 0.95857,
+          "date": "2026-10-28",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
+        },
+        "FED_4W_MILLION_USD": {
+          "value": 2604.0,
+          "date": "2026-10-28",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
+        }
+      },
+      "assets": {
+        "GOLD": {
+          "value": 3924.1,
+          "observed_at": "2026-10-30T15:02:13Z",
+          "observation_kind": "Spot-Momentaufnahme, kein offizieller Schlusskurs",
+          "url": "https://api.gold-api.com/price/XAU"
+        },
+        "VNQ": {
+          "value": 94.11,
+          "observed_at": "2026-10-30",
           "observation_kind": "ETF-Tagesschlusskurs, Immobilienaktien-Proxy",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1mo&interval=1d"
         },
