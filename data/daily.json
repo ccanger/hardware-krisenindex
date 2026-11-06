@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T16:28:42.379232+00:00",
+  "updated_at": "2026-11-06T15:55:56.596159+00:00",
   "method": "Separater 10-SKU-Anschlussindex: HKI=331.6*(.4*R_RAM+.3*R_SSD+.2*R_GPU+.1*R_HDD)",
   "entries": [
     {
@@ -1991,6 +1991,50 @@
         }
       ],
       "quality": "api_filtered",
+      "note": "Drittanbieter-API, keine unabhängige Händlerbestätigung; Produktklassenpreisbasis und SKU-Mix sind verschieden."
+    },
+    {
+      "date": "2026-11-06",
+      "hki": null,
+      "complete": false,
+      "coverage": {
+        "ram": {
+          "observed": 0,
+          "required": 1
+        },
+        "ssd": {
+          "observed": 1,
+          "required": 1
+        },
+        "gpu": {
+          "observed": 0,
+          "required": 2
+        },
+        "hdd": {
+          "observed": 0,
+          "required": 1
+        }
+      },
+      "relative_groups": {
+        "ram": null,
+        "ssd": 1.4101923076923077,
+        "gpu": null,
+        "hdd": null
+      },
+      "offers": [
+        {
+          "id": "ssd1",
+          "price_eur": 219.99,
+          "merchant": "Galaxus Deutschland GmbH",
+          "source_url": "https://geizhals.de/a2795961.html",
+          "sku": "MZ-V9P1T0BW",
+          "checked_date": "2026-11-06",
+          "in_stock": true,
+          "new_condition": true,
+          "api_retrieved_at": "2026-11-06T15:54:40.779878+00:00"
+        }
+      ],
+      "quality": "insufficient_quotes",
       "note": "Drittanbieter-API, keine unabhängige Händlerbestätigung; Produktklassenpreisbasis und SKU-Mix sind verschieden."
     }
   ]

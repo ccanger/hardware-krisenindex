@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-06",
+  "provider": "scrappa_geizhals_product",
+  "retrieved_at": "2026-11-06T15:54:40.779878+00:00",
+  "offers": [
+    {
+      "id": "ssd1",
+      "price_eur": 219.99,
+      "merchant": "Galaxus Deutschland GmbH",
+      "source_url": "https://geizhals.de/a2795961.html",
+      "sku": "MZ-V9P1T0BW",
+      "checked_date": "2026-11-06",
+      "in_stock": true,
+      "new_condition": true,
+      "api_retrieved_at": "2026-11-06T15:54:40.779878+00:00"
+    }
+  ],
+  "problems": [
+    {
+      "id": "ram32",
+      "reason": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "ram64",
+      "reason": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "ssd2",
+      "reason": "The read operation timed out"
+    },
+    {
+      "id": "rtx5070",
+      "reason": "The read operation timed out"
+    },
+    {
+      "id": "rtx5080",
+      "reason": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "rtx5090",
+      "reason": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "rx9070xt",
+      "reason": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "hdd8",
+      "reason": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "hdd18",
+      "reason": "HTTP Error 503: Service Unavailable"
+    }
+  ]
+}
