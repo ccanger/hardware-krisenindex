@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T16:25:44+00:00",
+  "updated_at": "2026-11-10T22:55:09+00:00",
   "timezone": "Europe/Berlin",
   "records": [
     {
@@ -14465,7 +14465,7 @@
     },
     {
       "date": "2026-11-10",
-      "collected_at": "2026-11-10T16:25:44+00:00",
+      "collected_at": "2026-11-10T22:55:09+00:00",
       "score": 0.0,
       "coverage": 6,
       "inputs": {
@@ -14521,8 +14521,8 @@
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=STLFSI4&cosd=2025-01-01"
         },
         "DFII10": {
-          "date": "2026-11-06",
-          "value": 2.63,
+          "date": "2026-11-09",
+          "value": 2.66,
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2025-01-01"
         },
         "WALCL": {
@@ -14548,13 +14548,13 @@
       },
       "assets": {
         "GOLD": {
-          "value": 4028.6,
-          "observed_at": "2026-11-10T16:25:27Z",
+          "value": 4033.8,
+          "observed_at": "2026-11-10T22:54:58Z",
           "observation_kind": "Spot-Momentaufnahme, kein offizieller Schlusskurs",
           "url": "https://api.gold-api.com/price/XAU"
         },
         "VNQ": {
-          "value": 96.419,
+          "value": 97.08,
           "observed_at": "2026-11-10",
           "observation_kind": "ETF-Tagesschlusskurs, Immobilienaktien-Proxy",
           "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1mo&interval=1d"
