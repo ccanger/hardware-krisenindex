@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T22:55:09+00:00",
+  "updated_at": "2026-11-11T16:09:39+00:00",
   "timezone": "Europe/Berlin",
   "records": [
     {
@@ -14562,6 +14562,113 @@
         "SP500": {
           "value": 7549.94,
           "observed_at": "2026-11-09",
+          "observation_kind": "US-Indexschlusskurs",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
+        }
+      },
+      "errors": {},
+      "phase": "ruhig",
+      "method": "Heuristischer Marktstress, keine Krisenprognose; fehlende Komponenten NICHT null."
+    },
+    {
+      "date": "2026-11-11",
+      "collected_at": "2026-11-11T16:09:39+00:00",
+      "score": 0.0,
+      "coverage": 6,
+      "inputs": {
+        "us_hy": 3.34,
+        "eu_hy": 3.4,
+        "vix": 19.46,
+        "funding": -0.02,
+        "drawdown": 3.81126,
+        "stlfsi": -0.5224
+      },
+      "points": {
+        "us_hy": 0,
+        "eu_hy": 0,
+        "vix": 0,
+        "funding": 0,
+        "drawdown": 0,
+        "stlfsi": 0
+      },
+      "metrics": {
+        "BAMLH0A0HYM2": {
+          "date": "2026-11-09",
+          "value": 3.34,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2025-01-01"
+        },
+        "BAMLHE00EHYIOAS": {
+          "date": "2026-11-09",
+          "value": 3.4,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLHE00EHYIOAS&cosd=2025-01-01"
+        },
+        "VIXCLS": {
+          "date": "2026-11-10",
+          "value": 19.46,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd=2025-01-01"
+        },
+        "SOFR": {
+          "date": "2026-11-09",
+          "value": 3.88,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR&cosd=2025-01-01"
+        },
+        "IORB": {
+          "date": "2026-11-11",
+          "value": 3.9,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IORB&cosd=2025-01-01"
+        },
+        "SP500": {
+          "date": "2026-11-10",
+          "value": 7520.93,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
+        },
+        "STLFSI4": {
+          "date": "2026-10-30",
+          "value": -0.5224,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=STLFSI4&cosd=2025-01-01"
+        },
+        "DFII10": {
+          "date": "2026-11-09",
+          "value": 2.66,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2025-01-01"
+        },
+        "WALCL": {
+          "date": "2026-11-04",
+          "value": 6748145.0,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
+        },
+        "SOFR_MINUS_IORB": {
+          "value": -0.02,
+          "date": "2026-11-09",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR&cosd=2025-01-01"
+        },
+        "SP500_DRAWDOWN": {
+          "value": 3.81126,
+          "date": "2026-11-10",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
+        },
+        "FED_4W_MILLION_USD": {
+          "value": 585.0,
+          "date": "2026-11-04",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
+        }
+      },
+      "assets": {
+        "GOLD": {
+          "value": 4005.9,
+          "observed_at": "2026-11-11T16:09:30Z",
+          "observation_kind": "Spot-Momentaufnahme, kein offizieller Schlusskurs",
+          "url": "https://api.gold-api.com/price/XAU"
+        },
+        "VNQ": {
+          "value": 96.69,
+          "observed_at": "2026-11-11",
+          "observation_kind": "ETF-Tagesschlusskurs, Immobilienaktien-Proxy",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1mo&interval=1d"
+        },
+        "SP500": {
+          "value": 7520.93,
+          "observed_at": "2026-11-10",
           "observation_kind": "US-Indexschlusskurs",
           "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
         }
