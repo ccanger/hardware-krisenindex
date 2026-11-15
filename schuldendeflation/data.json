@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T15:03:29+00:00",
+  "updated_at": "2026-11-15T15:39:31+00:00",
   "timezone": "Europe/Berlin",
   "records": [
     {
@@ -14991,6 +14991,113 @@
       "errors": {
         "GOLD": "<urlopen error [Errno -2] Name or service not known>"
       },
+      "phase": "ruhig",
+      "method": "Heuristischer Marktstress, keine Krisenprognose; fehlende Komponenten NICHT null."
+    },
+    {
+      "date": "2026-11-15",
+      "collected_at": "2026-11-15T15:39:31+00:00",
+      "score": 0.0,
+      "coverage": 6,
+      "inputs": {
+        "us_hy": 3.2,
+        "eu_hy": 3.23,
+        "vix": 18.7,
+        "funding": 0.0,
+        "drawdown": 3.29022,
+        "stlfsi": -0.4918
+      },
+      "points": {
+        "us_hy": 0,
+        "eu_hy": 0,
+        "vix": 0,
+        "funding": 0,
+        "drawdown": 0,
+        "stlfsi": 0
+      },
+      "metrics": {
+        "BAMLH0A0HYM2": {
+          "date": "2026-11-12",
+          "value": 3.2,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2025-01-01"
+        },
+        "BAMLHE00EHYIOAS": {
+          "date": "2026-11-12",
+          "value": 3.23,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLHE00EHYIOAS&cosd=2025-01-01"
+        },
+        "VIXCLS": {
+          "date": "2026-11-12",
+          "value": 18.7,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd=2025-01-01"
+        },
+        "SOFR": {
+          "date": "2026-11-12",
+          "value": 3.9,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR&cosd=2025-01-01"
+        },
+        "IORB": {
+          "date": "2026-11-15",
+          "value": 3.9,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IORB&cosd=2025-01-01"
+        },
+        "SP500": {
+          "date": "2026-11-13",
+          "value": 7561.67,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
+        },
+        "STLFSI4": {
+          "date": "2026-11-06",
+          "value": -0.4918,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=STLFSI4&cosd=2025-01-01"
+        },
+        "DFII10": {
+          "date": "2026-11-12",
+          "value": 2.86,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2025-01-01"
+        },
+        "WALCL": {
+          "date": "2026-11-11",
+          "value": 6758867.0,
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
+        },
+        "SOFR_MINUS_IORB": {
+          "value": 0.0,
+          "date": "2026-11-12",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR&cosd=2025-01-01"
+        },
+        "SP500_DRAWDOWN": {
+          "value": 3.29022,
+          "date": "2026-11-13",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
+        },
+        "FED_4W_MILLION_USD": {
+          "value": 3228.0,
+          "date": "2026-11-11",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL&cosd=2025-01-01"
+        }
+      },
+      "assets": {
+        "GOLD": {
+          "value": 3887.6,
+          "observed_at": "2026-11-15T15:39:27Z",
+          "observation_kind": "Spot-Momentaufnahme, kein offizieller Schlusskurs",
+          "url": "https://api.gold-api.com/price/XAU"
+        },
+        "VNQ": {
+          "value": 96.47,
+          "observed_at": "2026-11-13",
+          "observation_kind": "ETF-Tagesschlusskurs, Immobilienaktien-Proxy",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1mo&interval=1d"
+        },
+        "SP500": {
+          "value": 7561.67,
+          "observed_at": "2026-11-13",
+          "observation_kind": "US-Indexschlusskurs",
+          "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500&cosd=2025-01-01"
+        }
+      },
+      "errors": {},
       "phase": "ruhig",
       "method": "Heuristischer Marktstress, keine Krisenprognose; fehlende Komponenten NICHT null."
     }
