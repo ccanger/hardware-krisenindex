@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:10:43+00:00",
+  "updated_at": "2026-11-28T16:52:24+00:00",
   "timezone": "Europe/Berlin",
   "records": [
     {
@@ -16383,6 +16383,66 @@
       },
       "errors": {},
       "phase": "ruhig",
+      "method": "Heuristischer Marktstress, keine Krisenprognose; fehlende Komponenten NICHT null."
+    },
+    {
+      "date": "2026-11-28",
+      "collected_at": "2026-11-28T16:52:24+00:00",
+      "score": null,
+      "coverage": 0,
+      "inputs": {
+        "us_hy": null,
+        "eu_hy": null,
+        "vix": null,
+        "funding": null,
+        "drawdown": null,
+        "stlfsi": null
+      },
+      "points": {
+        "us_hy": null,
+        "eu_hy": null,
+        "vix": null,
+        "funding": null,
+        "drawdown": null,
+        "stlfsi": null
+      },
+      "metrics": {
+        "BAMLH0A0HYM2": null,
+        "BAMLHE00EHYIOAS": null,
+        "VIXCLS": null,
+        "SOFR": null,
+        "IORB": null,
+        "SP500": null,
+        "STLFSI4": null,
+        "DFII10": null,
+        "WALCL": null
+      },
+      "assets": {
+        "GOLD": {
+          "value": 3650.0,
+          "observed_at": "2026-11-28T16:52:26Z",
+          "observation_kind": "Spot-Momentaufnahme, kein offizieller Schlusskurs",
+          "url": "https://api.gold-api.com/price/XAU"
+        },
+        "VNQ": {
+          "value": 96.24,
+          "observed_at": "2026-11-27",
+          "observation_kind": "ETF-Tagesschlusskurs, Immobilienaktien-Proxy",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?range=1mo&interval=1d"
+        }
+      },
+      "errors": {
+        "BAMLH0A0HYM2": "The read operation timed out",
+        "IORB": "The read operation timed out",
+        "BAMLHE00EHYIOAS": "The read operation timed out",
+        "VIXCLS": "The read operation timed out",
+        "SOFR": "The read operation timed out",
+        "SP500": "The read operation timed out",
+        "STLFSI4": "The read operation timed out",
+        "DFII10": "The read operation timed out",
+        "WALCL": "The read operation timed out"
+      },
+      "phase": "unvollstaendig",
       "method": "Heuristischer Marktstress, keine Krisenprognose; fehlende Komponenten NICHT null."
     }
   ],
